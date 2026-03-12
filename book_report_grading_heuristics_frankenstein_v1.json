@@ -1,0 +1,819 @@
+{
+  "metadata": {
+    "rubricId": "book-report-frankenstein-v1",
+    "title": "Professor-Style Book Report Grading Heuristics (Frankenstein)",
+    "version": "1.0.0",
+    "createdAt": "2026-03-06T15:12:54Z",
+    "intendedUse": "Grounding knowledge source for an AI Agent acting as a professor in Microsoft Copilot Studio.",
+    "scope": "Grades a single student book report against explicit requirements and produces a grading-accuracy self-audit.",
+    "license": "Rubric text is original; book is public-domain."
+  },
+  "assignment": {
+    "topic": "Literary analysis of scientific ambition and responsibility",
+    "book": {
+      "title": "Frankenstein; or, The Modern Prometheus",
+      "author": "Mary Shelley",
+      "publicationYear": 1818,
+      "editionNote": "Any reputable edition is acceptable. If page numbers are used, they must match the student’s edition.",
+      "spoilerPolicy": "Allowed. This is an academic report; spoilers are not penalized."
+    },
+    "promptToStudent": "Write a formal book report that argues a clear thesis about how Frankenstein portrays scientific ambition and moral responsibility. Support your thesis with textual evidence and analysis.",
+    "allowedSources": {
+      "primaryRequired": true,
+      "secondaryOptional": true,
+      "secondaryConstraints": [
+        "Secondary sources may be used for context, but analysis must be the student’s own.",
+        "All secondary sources must be cited.",
+        "Do not use plot summaries (e.g., Wikipedia/CliffsNotes) as a substitute for analysis."
+      ]
+    }
+  },
+  "submissionRequirements": {
+    "wordCount": {
+      "target": {
+        "min": 1200,
+        "max": 1500
+      },
+      "hardLimits": {
+        "min": 1000,
+        "max": 1800
+      },
+      "measurement": "Count words in the report body excluding title page, references, and appendices.",
+      "penalties": [
+        {
+          "condition": "wordCount < 1000",
+          "action": "capOverallGradePercent",
+          "value": 70,
+          "reason": "Too short to meet assignment depth."
+        },
+        {
+          "condition": "wordCount > 1800",
+          "action": "capOverallGradePercent",
+          "value": 90,
+          "reason": "Exceeds hard limit; conciseness requirement violated."
+        },
+        {
+          "condition": "1000 <= wordCount < 1200",
+          "action": "deductPercent",
+          "value": 5,
+          "reason": "Below target range."
+        },
+        {
+          "condition": "1500 < wordCount <= 1800",
+          "action": "deductPercent",
+          "value": 3,
+          "reason": "Above target range."
+        }
+      ]
+    },
+    "formatting": {
+      "required": [
+        "12-pt readable font",
+        "double-spaced",
+        "page numbers",
+        "clear headings for required sections"
+      ],
+      "acceptableCitationStyles": [
+        "MLA",
+        "APA",
+        "Chicago"
+      ],
+      "citationMinimum": {
+        "directQuotations": {
+          "min": 3,
+          "max": 6
+        },
+        "notes": [
+          "At least 3 direct quotations from the novel are required.",
+          "No more than 6 direct quotations; over-quoting reduces analysis quality."
+        ]
+      }
+    },
+    "requiredSections": [
+      {
+        "id": "title_page",
+        "name": "Title Page",
+        "required": true,
+        "mustInclude": [
+          "student name",
+          "course",
+          "instructor",
+          "date",
+          "book title",
+          "author"
+        ],
+        "minWords": 0
+      },
+      {
+        "id": "intro_thesis",
+        "name": "Introduction + Thesis",
+        "required": true,
+        "minWords": 150,
+        "mustInclude": [
+          "brief context (1–3 sentences)",
+          "explicit thesis statement (1–2 sentences)",
+          "roadmap of main points"
+        ],
+        "thesisQualityRules": {
+          "must": [
+            "Make an arguable claim (not a fact or summary).",
+            "Name at least one major theme (ambition, responsibility, creation, isolation, ethics).",
+            "Indicate how the essay will prove the claim (signals analysis, not plot recap)."
+          ],
+          "mustNot": [
+            "Be purely evaluative without reasoning (e.g., 'This book is great').",
+            "Be a plot statement (e.g., 'Victor creates a monster')."
+          ]
+        }
+      },
+      {
+        "id": "plot_summary",
+        "name": "Plot Summary (Brief)",
+        "required": true,
+        "minWords": 150,
+        "maxWords": 250,
+        "mustInclude": [
+          "setting",
+          "central conflict",
+          "major turning point",
+          "outcome"
+        ],
+        "rules": [
+          "Summary must be brief and objective.",
+          "If summary exceeds 250 words, deduct from analysis-related criteria (see scoring rules)."
+        ]
+      },
+      {
+        "id": "character_analysis",
+        "name": "Character Analysis",
+        "required": true,
+        "minWords": 250,
+        "mustInclude": [
+          "Victor Frankenstein: motivations + ethical blind spots",
+          "The Creature: development + moral reasoning",
+          "One supporting character (e.g., Elizabeth, Clerval, Walton) and their function"
+        ]
+      },
+      {
+        "id": "theme_analysis",
+        "name": "Theme & Symbol Analysis",
+        "required": true,
+        "minWords": 350,
+        "mustInclude": [
+          "scientific ambition vs. responsibility",
+          "at least 2 supporting themes (e.g., isolation, nature vs. nurture, revenge, societal rejection)",
+          "at least 1 symbol/motif (e.g., light/fire, ice, nature, books the Creature reads)"
+        ]
+      },
+      {
+        "id": "evidence_quotes",
+        "name": "Textual Evidence (Quotes Integrated)",
+        "required": true,
+        "minWords": 0,
+        "mustInclude": [
+          "3–6 direct quotations",
+          "each quotation is introduced and followed by analysis",
+          "citations for each quotation (page or chapter/location)"
+        ]
+      },
+      {
+        "id": "critical_evaluation",
+        "name": "Critical Evaluation",
+        "required": true,
+        "minWords": 200,
+        "mustInclude": [
+          "argument about what the book suggests (ethical or cultural implication)",
+          "discussion of at least one counterpoint or complexity",
+          "evaluation of the narrator structure (Walton/Victor/Creature) or reliability"
+        ]
+      },
+      {
+        "id": "personal_reflection",
+        "name": "Personal Reflection (Academic Tone)",
+        "required": true,
+        "minWords": 150,
+        "mustInclude": [
+          "what changed in your thinking",
+          "connection to modern scientific/AI ethics",
+          "a specific moment/scene that shaped your view"
+        ],
+        "rules": [
+          "Reflection must remain respectful and academically appropriate.",
+          "First-person is allowed here; elsewhere it should be minimal."
+        ]
+      },
+      {
+        "id": "conclusion",
+        "name": "Conclusion",
+        "required": true,
+        "minWords": 120,
+        "mustInclude": [
+          "restate thesis (not verbatim)",
+          "synthesize (do not add new claims)",
+          "final implication"
+        ],
+        "rules": [
+          "No new evidence introduced in conclusion."
+        ]
+      },
+      {
+        "id": "works_cited",
+        "name": "Works Cited / References",
+        "required": true,
+        "minWords": 0,
+        "mustInclude": [
+          "primary text citation",
+          "any secondary sources"
+        ],
+        "rules": [
+          "If no secondary sources used, still list the primary text."
+        ]
+      }
+    ],
+    "inappropriateOrIncorrectRules": {
+      "hardFailConditions": [
+        {
+          "id": "plagiarism",
+          "description": "Substantial plagiarism or copy/paste from summaries or essays.",
+          "action": "overallGradePercent=0",
+          "notes": "If detected, fail the assignment regardless of content quality."
+        },
+        {
+          "id": "fabricated_quotes",
+          "description": "Invented quotations or misattributed quotations presented as direct quotes from the novel.",
+          "action": "overallGradePercent=max(50, overallGradePercent-30)",
+          "notes": "Severe academic integrity issue; apply major penalty and flag."
+        },
+        {
+          "id": "hateful_or_harassing",
+          "description": "Hate speech, harassment, or demeaning content about protected groups or individuals.",
+          "action": "overallGradePercent=0",
+          "notes": "Unsafe/inappropriate content is not accepted."
+        }
+      ],
+      "majorPenaltyConditions": [
+        {
+          "id": "plot_over_analysis",
+          "description": "More than 40% of body text is plot retelling with minimal analysis.",
+          "action": "deductPercent",
+          "value": 15
+        },
+        {
+          "id": "no_thesis",
+          "description": "No identifiable thesis or the 'thesis' is purely summary.",
+          "action": "capOverallGradePercent",
+          "value": 65
+        },
+        {
+          "id": "missing_required_section",
+          "description": "Any required section is missing or extremely underdeveloped (<50% of minWords).",
+          "action": "deductPercent",
+          "value": 10,
+          "stackable": true
+        }
+      ],
+      "minorPenaltyConditions": [
+        {
+          "id": "typos_many",
+          "description": "Frequent typos/grammar errors that distract but do not block understanding.",
+          "action": "deductPercent",
+          "value": 3
+        },
+        {
+          "id": "weak_headings",
+          "description": "Sections present but headings unclear or inconsistent.",
+          "action": "deductPercent",
+          "value": 2
+        }
+      ]
+    }
+  },
+  "scoring": {
+    "totalPoints": 100,
+    "rounding": {
+      "method": "nearest",
+      "increment": 1
+    },
+    "letterGradeScale": [
+      {
+        "minPercent": 93,
+        "letter": "A"
+      },
+      {
+        "minPercent": 90,
+        "letter": "A-"
+      },
+      {
+        "minPercent": 87,
+        "letter": "B+"
+      },
+      {
+        "minPercent": 83,
+        "letter": "B"
+      },
+      {
+        "minPercent": 80,
+        "letter": "B-"
+      },
+      {
+        "minPercent": 77,
+        "letter": "C+"
+      },
+      {
+        "minPercent": 73,
+        "letter": "C"
+      },
+      {
+        "minPercent": 70,
+        "letter": "C-"
+      },
+      {
+        "minPercent": 67,
+        "letter": "D+"
+      },
+      {
+        "minPercent": 63,
+        "letter": "D"
+      },
+      {
+        "minPercent": 60,
+        "letter": "D-"
+      },
+      {
+        "minPercent": 0,
+        "letter": "F"
+      }
+    ],
+    "criteria": [
+      {
+        "id": "c1_thesis_and_intro",
+        "name": "Introduction & Thesis Quality",
+        "weightPercent": 15,
+        "scoreType": "0-5",
+        "levels": [
+          {
+            "score": 5,
+            "descriptor": "Clear, arguable thesis; strong roadmap; concise context."
+          },
+          {
+            "score": 4,
+            "descriptor": "Thesis is arguable; roadmap mostly clear; minor vagueness."
+          },
+          {
+            "score": 3,
+            "descriptor": "Thesis present but broad or partly summary; weak roadmap."
+          },
+          {
+            "score": 2,
+            "descriptor": "Thesis hard to find or not arguable; intro mostly summary."
+          },
+          {
+            "score": 1,
+            "descriptor": "No real thesis; introduction fails to set up argument."
+          },
+          {
+            "score": 0,
+            "descriptor": "Missing introduction/thesis section."
+          }
+        ],
+        "evidenceRequired": [
+          "quoteThesisSentence",
+          "noteMainClaims"
+        ],
+        "autoChecks": [
+          "section_present:intro_thesis",
+          "min_words:intro_thesis>=150"
+        ]
+      },
+      {
+        "id": "c2_plot_summary_quality",
+        "name": "Plot Summary (Brevity + Accuracy)",
+        "weightPercent": 10,
+        "scoreType": "0-5",
+        "levels": [
+          {
+            "score": 5,
+            "descriptor": "Accurate, objective, and within 150–250 words."
+          },
+          {
+            "score": 4,
+            "descriptor": "Accurate; slightly outside target or minor omissions."
+          },
+          {
+            "score": 3,
+            "descriptor": "Mostly accurate but too detailed or missing key elements."
+          },
+          {
+            "score": 2,
+            "descriptor": "Noticeable inaccuracies or excessive detail; unclear."
+          },
+          {
+            "score": 1,
+            "descriptor": "Largely inaccurate or far too long/short."
+          },
+          {
+            "score": 0,
+            "descriptor": "Missing plot summary section."
+          }
+        ],
+        "autoChecks": [
+          "section_present:plot_summary",
+          "word_range:plot_summary=150..250"
+        ],
+        "tieBreakers": [
+          "If summary exceeds 250 words, reduce c3/c4 by 1 score step each (analysis displaced by summary)."
+        ]
+      },
+      {
+        "id": "c3_character_analysis",
+        "name": "Character Analysis Depth",
+        "weightPercent": 15,
+        "scoreType": "0-5",
+        "levels": [
+          {
+            "score": 5,
+            "descriptor": "Insightful analysis of Victor, Creature, and one supporting character with evidence."
+          },
+          {
+            "score": 4,
+            "descriptor": "Good analysis; one character less developed or evidence thin."
+          },
+          {
+            "score": 3,
+            "descriptor": "Basic traits and motivations described; limited interpretation."
+          },
+          {
+            "score": 2,
+            "descriptor": "Mostly plot retell; minimal analysis or missing required character."
+          },
+          {
+            "score": 1,
+            "descriptor": "Superficial or inaccurate character claims."
+          },
+          {
+            "score": 0,
+            "descriptor": "Missing character analysis section."
+          }
+        ],
+        "evidenceRequired": [
+          "at_least_one_quote_or_paraphrase_with_citation"
+        ],
+        "autoChecks": [
+          "section_present:character_analysis",
+          "min_words:character_analysis>=250"
+        ]
+      },
+      {
+        "id": "c4_theme_symbol_analysis",
+        "name": "Theme & Symbol Analysis (Core)",
+        "weightPercent": 20,
+        "scoreType": "0-5",
+        "levels": [
+          {
+            "score": 5,
+            "descriptor": "Strong thematic argument; integrates symbols/motifs; connects to thesis throughout."
+          },
+          {
+            "score": 4,
+            "descriptor": "Clear themes and at least one symbol; connection to thesis mostly consistent."
+          },
+          {
+            "score": 3,
+            "descriptor": "Identifies themes but analysis is general; weak symbol integration."
+          },
+          {
+            "score": 2,
+            "descriptor": "Lists themes with little explanation; misses required ambition/responsibility focus."
+          },
+          {
+            "score": 1,
+            "descriptor": "Confused or inaccurate theme claims."
+          },
+          {
+            "score": 0,
+            "descriptor": "Missing theme & symbol analysis section."
+          }
+        ],
+        "evidenceRequired": [
+          "multiple_textual_references"
+        ],
+        "autoChecks": [
+          "section_present:theme_analysis",
+          "min_words:theme_analysis>=350"
+        ]
+      },
+      {
+        "id": "c5_textual_evidence_integration",
+        "name": "Textual Evidence & Quote Integration",
+        "weightPercent": 15,
+        "scoreType": "0-5",
+        "levels": [
+          {
+            "score": 5,
+            "descriptor": "3–6 quotes smoothly integrated; each quote is analyzed; citations consistent."
+          },
+          {
+            "score": 4,
+            "descriptor": "Meets quote minimum; analysis present; minor integration/citation issues."
+          },
+          {
+            "score": 3,
+            "descriptor": "Quotes present but analysis is thin or quotes overused."
+          },
+          {
+            "score": 2,
+            "descriptor": "Too few quotes or quotations dropped in without analysis."
+          },
+          {
+            "score": 1,
+            "descriptor": "Quotes missing or citations missing."
+          },
+          {
+            "score": 0,
+            "descriptor": "No textual evidence section or no direct quotes."
+          }
+        ],
+        "autoChecks": [
+          "quotes_count=3..6",
+          "citations_present_for_each_quote=true"
+        ],
+        "integrityChecks": [
+          "If any direct quote appears fabricated, trigger hardFailCondition:fabricated_quotes"
+        ]
+      },
+      {
+        "id": "c6_critical_evaluation",
+        "name": "Critical Evaluation & Complexity",
+        "weightPercent": 10,
+        "scoreType": "0-5",
+        "levels": [
+          {
+            "score": 5,
+            "descriptor": "Evaluates implications; addresses complexity/counterpoint; discusses narration/reliability."
+          },
+          {
+            "score": 4,
+            "descriptor": "Good evaluation; one required element underdeveloped."
+          },
+          {
+            "score": 3,
+            "descriptor": "Some evaluation but mostly personal opinion; limited complexity."
+          },
+          {
+            "score": 2,
+            "descriptor": "Thin evaluation; lacks counterpoint or narrator discussion."
+          },
+          {
+            "score": 1,
+            "descriptor": "Unsupported opinions; inaccurate claims."
+          },
+          {
+            "score": 0,
+            "descriptor": "Missing critical evaluation section."
+          }
+        ],
+        "autoChecks": [
+          "section_present:critical_evaluation",
+          "min_words:critical_evaluation>=200"
+        ]
+      },
+      {
+        "id": "c7_reflection_modern_connection",
+        "name": "Personal Reflection + Modern Ethics Connection",
+        "weightPercent": 5,
+        "scoreType": "0-5",
+        "levels": [
+          {
+            "score": 5,
+            "descriptor": "Specific, thoughtful reflection; strong connection to modern science/AI ethics."
+          },
+          {
+            "score": 4,
+            "descriptor": "Clear reflection; connection present but could be deeper."
+          },
+          {
+            "score": 3,
+            "descriptor": "General reflection; vague modern connection."
+          },
+          {
+            "score": 2,
+            "descriptor": "Mostly summary; minimal reflection."
+          },
+          {
+            "score": 1,
+            "descriptor": "Off-topic or inappropriate tone."
+          },
+          {
+            "score": 0,
+            "descriptor": "Missing reflection section."
+          }
+        ],
+        "autoChecks": [
+          "section_present:personal_reflection",
+          "min_words:personal_reflection>=150"
+        ]
+      },
+      {
+        "id": "c8_writing_quality",
+        "name": "Writing Quality (Clarity, Organization, Mechanics)",
+        "weightPercent": 10,
+        "scoreType": "0-5",
+        "levels": [
+          {
+            "score": 5,
+            "descriptor": "Clear academic tone; strong transitions; minimal errors."
+          },
+          {
+            "score": 4,
+            "descriptor": "Mostly clear; minor organization/mechanics issues."
+          },
+          {
+            "score": 3,
+            "descriptor": "Understandable but repetitive; noticeable grammar/structure issues."
+          },
+          {
+            "score": 2,
+            "descriptor": "Hard to follow; frequent errors; weak structure."
+          },
+          {
+            "score": 1,
+            "descriptor": "Very difficult to read or inappropriate tone."
+          },
+          {
+            "score": 0,
+            "descriptor": "Unscorable (e.g., not in readable language, corrupted text)."
+          }
+        ],
+        "notes": [
+          "This criterion reflects clarity/structure/conciseness similar to general-purpose response rubrics.",
+          "Do not penalize for sophisticated vocabulary if used correctly; penalize for jargon without meaning."
+        ]
+      }
+    ]
+  },
+  "gradingProcess": {
+    "steps": [
+      {
+        "order": 1,
+        "name": "Parse submission",
+        "actions": [
+          "Extract plain text.",
+          "Detect headings/sections; map to requiredSections by fuzzy match (e.g., 'Works Cited' -> works_cited).",
+          "Compute body word count per rules.",
+          "Count direct quotations (heuristic: text in quotation marks or block quote formatting).",
+          "Detect presence of citations near quotations (parenthetical or footnote markers)."
+        ]
+      },
+      {
+        "order": 2,
+        "name": "Check hard fails & penalties",
+        "actions": [
+          "Scan for missing required sections.",
+          "Flag plagiarism indicators (sudden style shifts, known-summary phrasing, duplicate passages if available).",
+          "Flag potential fabricated quotes (quotes not consistent with common wording OR missing citations).",
+          "Apply word-count penalties and caps."
+        ]
+      },
+      {
+        "order": 3,
+        "name": "Score each criterion",
+        "actions": [
+          "For each criterion: assign 0–5 score using level descriptors.",
+          "For each score: include 1–3 evidence snippets (short quotes from the student report) showing why.",
+          "If evidence is missing, reduce score and record uncertainty."
+        ]
+      },
+      {
+        "order": 4,
+        "name": "Compute total and generate feedback",
+        "actions": [
+          "Convert 0–5 to weighted points (score/5 * weightPercent).",
+          "Sum to percent.",
+          "Apply caps/deductions from penalties.",
+          "Assign letter grade.",
+          "Write feedback: (a) strengths (b) improvements (c) one concrete revision plan."
+        ]
+      },
+      {
+        "order": 5,
+        "name": "Run grading-accuracy self-audit",
+        "actions": [
+          "Evaluate the grader's own work using accuracyAssessment rubric.",
+          "Compute confidence level and list any uncertainties, missing evidence, or close calls.",
+          "If confidence is low, recommend human review."
+        ]
+      }
+    ]
+  },
+  "accuracyAssessment": {
+    "purpose": "Assess how accurate and reliable the grading is (meta-evaluation), not how good the student report is.",
+    "scale": {
+      "type": "1-5",
+      "anchors": {
+        "1": "Strongly disagree / unreliable",
+        "3": "Unclear or coin-toss; insufficient evidence",
+        "5": "Strongly agree / highly reliable"
+      },
+      "note": "Modeled after general rubric patterns that rate accuracy, completeness, relevance, clarity, structure, and safety."
+    },
+    "dimensions": [
+      {
+        "id": "a1_rubric_adherence",
+        "name": "Rubric Adherence",
+        "description": "Did the grader apply the stated requirements and scoring levels without inventing new rules?",
+        "scoringGuidance": {
+          "1": "Grader introduces new requirements or ignores major required sections.",
+          "3": "Some criteria applied correctly, but some scoring logic unclear.",
+          "5": "All scores trace to explicit rubric items; no new rules introduced."
+        }
+      },
+      {
+        "id": "a2_evidence_grounding",
+        "name": "Evidence Grounding",
+        "description": "Does each score include concrete evidence snippets from the student report?",
+        "scoringGuidance": {
+          "1": "Scores are asserted without citations/snippets.",
+          "3": "Evidence provided for about half of criteria.",
+          "5": "Evidence snippets provided for every criterion and penalty."
+        }
+      },
+      {
+        "id": "a3_consistency",
+        "name": "Internal Consistency",
+        "description": "Are similar issues penalized consistently (e.g., missing citations affects quote integration)?",
+        "scoringGuidance": {
+          "1": "Contradictory scoring; e.g., praises citations but penalizes missing citations elsewhere.",
+          "3": "Minor inconsistencies; net grade still plausible.",
+          "5": "Consistent scoring across all sections and criteria."
+        }
+      },
+      {
+        "id": "a4_uncertainty_handling",
+        "name": "Uncertainty & Edge Cases",
+        "description": "Does the grader flag close calls and avoid overconfident claims (e.g., plagiarism detection)?",
+        "scoringGuidance": {
+          "1": "Overconfident on unverifiable items; fails to flag uncertainty.",
+          "3": "Flags some uncertainty but misses key ones.",
+          "5": "Clearly labels uncertainties and recommends human review when needed."
+        }
+      },
+      {
+        "id": "a5_safety_and_bias",
+        "name": "Safety / Bias / Professionalism",
+        "description": "Is the feedback respectful, non-discriminatory, and appropriate for an academic setting?",
+        "scoringGuidance": {
+          "1": "Contains harmful, biased, or unprofessional language.",
+          "3": "Generally professional but could be misread as harsh/biased.",
+          "5": "Professional, neutral, constructive, and policy-safe."
+        }
+      }
+    ],
+    "confidenceMapping": [
+      {
+        "condition": "avgScore >= 4.5",
+        "confidence": "High",
+        "interpretation": "Grading is likely accurate; minimal risk of rubric mismatch."
+      },
+      {
+        "condition": "3.5 <= avgScore < 4.5",
+        "confidence": "Medium",
+        "interpretation": "Grading is mostly reliable; review any flagged uncertainties."
+      },
+      {
+        "condition": "avgScore < 3.5",
+        "confidence": "Low",
+        "interpretation": "Grading may be inconsistent or insufficiently evidenced; recommend human review."
+      }
+    ]
+  },
+  "expectedGraderOutputFormat": {
+    "requiredTopLevelFields": [
+      "overallPercent",
+      "letterGrade",
+      "criteriaBreakdown",
+      "penaltiesApplied",
+      "strengths",
+      "improvements",
+      "revisionPlan",
+      "accuracyAssessment",
+      "confidence"
+    ],
+    "criteriaBreakdownSchema": {
+      "type": "array",
+      "items": {
+        "criterionId": "string",
+        "score0to5": "number",
+        "weightPercent": "number",
+        "earnedPercent": "number",
+        "evidenceSnippets": "array<string>",
+        "rationale": "string"
+      }
+    },
+    "accuracyAssessmentSchema": {
+      "dimensions": "array<{dimensionId:string, score1to5:number, rationale:string}>",
+      "avgScore": "number",
+      "confidence": "High|Medium|Low",
+      "flags": "array<string>"
+    }
+  }
+}
