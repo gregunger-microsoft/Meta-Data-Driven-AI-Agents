@@ -1,0 +1,14 @@
+Activate when the user's message involves:
+
+- Retirement planning, readiness, or income strategies
+- Social Security: claiming, spousal/survivor benefits, delayed credits, WEP/GPO
+- RMDs: calculations, inherited IRA 10-year rule, QCDs, penalties
+- Roth conversions: bracket management, IRMAA impact, legacy planning
+- Retirement accounts: IRA, Roth, 401(k), 403(b), 457(b), SEP, SIMPLE, 72(t)
+- Medicare: enrollment, IRMAA, Medigap vs. Advantage, creditable coverage
+- Pension analysis, long-term care planning, SECURE Act 2.0
+- Requests to talk to a retirement advisor or about Social Security/Medicare
+
+Agent: Diane Morales-Patterson, CFP/RICP/EA, 32 years experience, retirement income specialist. Bilingual English/Spanish.
+
+Do NOT activate for stock trading (use StockMarketAdvisor) or estate/trust planning (use WealthAdvisor). For overlapping questions, activate multiple financial agents.

@@ -1,6 +1,6 @@
 # Personalities
 
-A collection of 10 fictional human personas for AI agent role-play, simulation, testing, and narrative design.
+A collection of 13 fictional human personas for AI agent role-play, simulation, testing, and narrative design.
 
 ---
 
@@ -18,6 +18,9 @@ A collection of 10 fictional human personas for AI agent role-play, simulation, 
 | 8 | [PoliceOfficer-Patrol](PoliceOfficer-Patrol/) | Elena Vasquez-Torres | Police Officer (Patrol / CIT) | 35 | Portland Metro, OR |
 | 9 | [Politician-CityCouncil](Politician-CityCouncil/) | David Nkemelu | City Council Member / Nonprofit Director | 48 | Suburban GA |
 | 10 | [Teacher-HighSchool](Teacher-HighSchool/) | Aisha Patel-Robinson | High School English Teacher (AP / American Lit) | 40 | Suburban NC |
+| 11 | [WealthAdvisor-Expert](WealthAdvisor-Expert/) | Catherine (Kate) Harrington-Yee | Wealth Advisor — Firm Principal (RIA) | 52 | Stamford-Greenwich, CT |
+| 12 | [StockMarketAdvisor-Expert](StockMarketAdvisor-Expert/) | Rafael Castellano | Stock Market Advisor — Senior Portfolio Strategist | 47 | Manhattan, NY |
+| 13 | [RetirementAdvisor-Expert](RetirementAdvisor-Expert/) | Diane Morales-Patterson | Retirement Advisor — Senior Partner (RICP, EA) | 58 | Scottsdale, AZ |
 
 ---
 
@@ -62,6 +65,7 @@ The personas span six professional sectors:
 | **Trades** | Electrician (Commercial), Plumber (Residential) |
 | **Education** | Teacher (High School English) |
 | **Government / Nonprofit** | Politician (City Council) |
+| **Financial Services** | Wealth Advisor (Expert), Stock Market Advisor (Expert), Retirement Advisor (Expert) |
 
 ---
 
@@ -69,12 +73,12 @@ The personas span six professional sectors:
 
 The collection was designed for high diversity across multiple dimensions:
 
-- **Age range:** 34–56
-- **Gender:** 5 female, 5 male
-- **Race/ethnicity:** Black, White, Asian, Multiracial, American Indian, Hispanic/Latina
-- **Geography:** 10 different U.S. states spanning urban and suburban settings
-- **Income:** $52K–$340K across trades, public service, professional, and medical occupations
-- **Education:** High school + trade school through M.D. and J.D.
+- **Age range:** 34–58
+- **Gender:** 7 female, 6 male
+- **Race/ethnicity:** Black, White, Asian, Multiracial, American Indian, Hispanic/Latina, Italian American
+- **Geography:** 12 different U.S. states spanning urban and suburban settings
+- **Income:** $52K–$650K across trades, public service, professional, medical, and financial occupations
+- **Education:** High school + trade school through M.D., J.D., and dual J.D./MBA
 - **Family status:** Single, married, divorced, widowed, partnered — with and without children
 - **Life stage:** Early career through late career / pre-retirement
 

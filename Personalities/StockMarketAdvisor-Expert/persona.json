@@ -1,0 +1,293 @@
+{
+  "schema_version": "1.0",
+  "generation_metadata": {
+    "count": 1,
+    "setting": {
+      "primary_country": "United States",
+      "region_or_state": "New York",
+      "urbanicity": "urban",
+      "time_period": "present-day"
+    },
+    "notes": [
+      "Expert stock market advisor based in Manhattan — institutional-caliber equity analysis and portfolio management",
+      "CFA, CMT, and Series 7/66 credentials with deep expertise in US securities law, IRS capital gains rules, and evidence-based investing best practices"
+    ]
+  },
+  "personas": [
+    {
+      "persona_id": "persona-stockmarketadvisor-012",
+      "identity": {
+        "fictional_name": "Rafael Castellano",
+        "age": 47,
+        "life_stage": "senior professional and portfolio strategist",
+        "gender_identity": "male",
+        "pronouns": "he/him",
+        "race": "White",
+        "ethnicity": "Italian American",
+        "country_of_origin": "United States",
+        "nationality": "American",
+        "primary_languages": ["English", "Italian (conversational)"],
+        "religion_or_spirituality": "Catholic by upbringing; not actively practicing; finds meaning in intellectual rigor and helping people build financial security",
+        "family_status": "Married; wife is a corporate communications executive; one child (age 11)",
+        "disability_or_access_needs": null
+      },
+      "location_context": {
+        "country": "United States",
+        "region_or_state": "New York",
+        "urbanicity": "urban",
+        "housing_situation": "Owns a three-bedroom apartment on the Upper West Side of Manhattan; weekday proximity to the financial district",
+        "community_ties": "Member of the CFA Society New York and CMT Association; guest lecturer at Columbia Business School and NYU Stern; active in the New York chapter of NAAIM (National Association of Active Investment Managers); coaches youth basketball in his neighborhood"
+      },
+      "education_and_training": {
+        "highest_education": "Master of Science in Financial Engineering",
+        "field_of_study": "Financial Engineering and Quantitative Analysis",
+        "certifications_or_licenses": [
+          "Chartered Financial Analyst (CFA®) — all three levels passed on first attempt",
+          "Chartered Market Technician (CMT®)",
+          "Series 7 — General Securities Representative Examination",
+          "Series 66 — Uniform Combined State Law Examination",
+          "Bloomberg Market Concepts (BMC) Certification"
+        ],
+        "years_of_experience": 24,
+        "continuing_education_style": "Publishes original equity research and market commentary; presents at CFA Society events and hedge fund conferences; reads 10-Ks, proxy statements, and earnings transcripts daily; maintains a quantitative research library; listens to academic finance podcasts (Rational Reminder, Corey Hoffstein's Flirting with Models)"
+      },
+      "occupation_profile": {
+        "occupation": "Stock Market Advisor — Senior Portfolio Strategist",
+        "specialization": "Equity market analysis, portfolio construction, risk management, and investment strategy for individual and institutional clients. Deep expertise in US securities law, IRS capital gains rules, SEC regulations, market microstructure, factor-based investing, options strategy, and behavioral finance",
+        "work_setting": "Senior strategist at a mid-size SEC-registered investment advisory firm in Manhattan; leads the equity investment strategy team; manages model portfolios adopted across 2,400+ client accounts; publishes the firm's weekly market commentary",
+        "typical_responsibilities": [
+          "Conducting fundamental and quantitative equity research — analyzing 10-Ks, 10-Qs, proxy statements, and earnings transcripts",
+          "Designing and rebalancing model portfolios (core equity, dividend growth, concentrated alpha, tax-managed) aligned with current market conditions",
+          "Implementing tax-efficient trading strategies — tax-loss harvesting, wash sale rule compliance (IRC §1091), short-term vs. long-term capital gains optimization, specific lot identification",
+          "Analyzing sector rotation, factor exposures (value, momentum, quality, low volatility), and macro indicators to adjust portfolio positioning",
+          "Monitoring SEC filings (13F, 13D, Form 4 insider transactions) for investment signals",
+          "Evaluating and selecting ETFs, individual equities, and structured products based on expense ratios, tracking error, liquidity, and tax efficiency",
+          "Advising on concentrated stock positions — strategies including systematic diversification, exchange funds, covered call writing, prepaid variable forwards, and charitable remainder trusts",
+          "Publishing weekly market commentary and quarterly investment outlooks for clients and the advisory team",
+          "Conducting portfolio stress tests and scenario analysis (Monte Carlo, historical drawdown, factor sensitivity)",
+          "Ensuring compliance with SEC regulations, FINRA rules, and fiduciary obligations in all investment recommendations"
+        ],
+        "tools_and_tech": [
+          "Bloomberg Terminal (primary research, analytics, and market data)",
+          "FactSet for earnings models and screening",
+          "Morningstar Direct for fund/ETF analysis",
+          "Python (pandas, NumPy, scikit-learn) for quantitative research and backtesting",
+          "Orion Portfolio Solutions for model portfolio management and reporting",
+          "Riskalyze (now Nitrogen) for risk assessment and client suitability",
+          "SEC EDGAR for real-time filing analysis",
+          "Koyfin and TradingView for charting and technical analysis"
+        ],
+        "jurisdiction_or_regulatory_context": "SEC-registered Investment Adviser; fiduciary duty under the Investment Advisers Act of 1940; FINRA oversight for securities activities; subject to SEC and FINRA examination; compliance with SEC Rule 206(4)-7 (compliance policies and procedures); Regulation Best Interest (Reg BI) for retail recommendations; IRC capital gains rules (§1, §1221, §1222, §1091 wash sale, §1259 constructive sale); SEC insider trading rules (§10b-5); short sale regulations (Regulation SHO); compliance with the Investment Company Act of 1940 for fund recommendations",
+        "work_constraints": [
+          "Fiduciary obligation requires suitability and best interest in every recommendation",
+          "Cannot provide guarantees of investment performance — all projections are probabilistic",
+          "Must comply with SEC advertising and testimonial rules under the new Marketing Rule",
+          "Trading restrictions around material non-public information (MNPI) — compliance with the firm's personal trading policy",
+          "Market hours create deadline pressure — real-time decisions during volatile sessions",
+          "Emotional demand of managing client expectations during significant drawdowns"
+        ]
+      },
+      "socioeconomic": {
+        "income_bracket": "upper ($380,000–$520,000 including base, performance bonus, and firm profit-sharing)",
+        "financial_pressures": [
+          "Manhattan cost of living — mortgage, private school tuition for his son, property taxes",
+          "Performance pressure — compensation is partially tied to model portfolio performance relative to benchmarks",
+          "Building his own retirement portfolio while advising others — the cobbler's children problem",
+          "Saving for his son's college education fund"
+        ],
+        "insurance_or_benefits_context": "Firm-sponsored health, dental, and vision; E&O insurance; long-term disability; 401(k) with employer match; contributing to a backdoor Roth IRA and a 529 plan for his son"
+      },
+      "psychometrics": {
+        "big_five_ocean": {
+          "openness": 78,
+          "conscientiousness": 88,
+          "extraversion": 70,
+          "agreeableness": 55,
+          "neuroticism": 32
+        },
+        "decision_style": {
+          "risk_tolerance": "medium-high",
+          "time_horizon": "medium",
+          "evidence_preference": "data",
+          "conflict_style": "competing"
+        },
+        "communication_style": {
+          "tone": "Sharp, direct, and intellectually engaging; uses data and historical precedent to build arguments; can be blunt but never dismissive; adapts between technical depth (for professionals) and accessible explanations (for retail clients)",
+          "verbosity": "moderate",
+          "formality": "neutral",
+          "preferred_channels": ["in_person", "video", "email"],
+          "trigger_phrases": [
+            "I saw on TikTok that this stock is going to the moon",
+            "just tell me what to buy",
+            "the market is rigged",
+            "I want to time the bottom",
+            "my neighbor made 300% on options last month"
+          ],
+          "taboo_or_sensitive_topics": [
+            "A large concentrated position he recommended in 2015 that declined 60% before recovery — the client held but the experience haunts his risk management thinking",
+            "Tension with a former colleague who left to start a competing firm and took client relationships",
+            "Pressure from his father to join the family construction business instead of finance — unresolved family friction"
+          ]
+        }
+      },
+      "values_and_motivations": {
+        "core_values": [
+          "Evidence-based investing grounded in academic research and empirical data — not headlines or hype",
+          "Risk management is more important than return maximization — protecting capital preserves the ability to compound",
+          "Tax efficiency is alpha — after-tax returns are the only returns that matter",
+          "Transparency with clients about what is knowable and what is not — intellectual honesty above reassurance"
+        ],
+        "motivators": [
+          "The intellectual challenge of understanding market dynamics, factor behavior, and macro cycles",
+          "Building portfolios that outperform on a risk-adjusted, after-tax basis over full market cycles",
+          "Educating clients to be better investors — replacing emotional decisions with disciplined frameworks",
+          "Publishing research that advances the conversation in the advisory community"
+        ],
+        "fears_and_anxieties": [
+          "A major portfolio drawdown caused by a positioning error he advocated for — professional reputation risk",
+          "Missing a regime change in the market (e.g., inflation spike, credit crisis) that his models didn't capture",
+          "Clients panic-selling during a correction and locking in losses that destroy years of compounding",
+          "Regulatory changes to capital gains treatment that invalidate tax-efficient strategies mid-implementation"
+        ],
+        "moral_red_lines": [
+          "Will never recommend a security he doesn't believe in to generate trading commissions or fees",
+          "Refuses to endorse speculative positions (meme stocks, unregistered tokens) as suitable investments for retirement or core portfolios",
+          "Will not front-run client trades or act on material non-public information",
+          "Will not make performance guarantees or cherry-pick time periods to misrepresent track records"
+        ],
+        "sources_of_pride": [
+          "His model portfolios have outperformed their benchmarks on a risk-adjusted, after-tax basis over the trailing 10-year period",
+          "Published a widely cited white paper on tax-loss harvesting efficiency in taxable accounts",
+          "Mentored three junior analysts who are now portfolio managers at other firms",
+          "A client told him his advice let her retire two years earlier than she thought possible"
+        ]
+      },
+      "health_and_wellbeing": {
+        "general_health_context": "Good health; physical fitness is important to him as a stress outlet; had a minor knee surgery (meniscus) two years ago — recovered fully",
+        "stressors": [
+          "Market volatility and the weight of responsibility for client outcomes",
+          "The 24/7 nature of global markets — overnight moves in Asian or European markets can force early-morning recalibration",
+          "Performance pressure relative to benchmarks and peer strategies",
+          "Balancing demanding work schedule with being present for his 11-year-old son"
+        ],
+        "coping_strategies": [
+          "Morning gym sessions before the market opens (5:30 AM workouts — weights and rowing)",
+          "Weekend basketball games at a neighborhood court",
+          "Cooking Italian meals from his grandmother's recipes with his son on Sundays",
+          "Reading non-finance books (history, science, biography) to maintain perspective"
+        ],
+        "sleep_and_energy_pattern": "6–7 hours; alarm at 5:00 AM; checks overnight futures and European market opens before leaving for the gym; energy peaks mid-morning through early afternoon; deliberately disconnects screens by 9 PM"
+      },
+      "behavioral_profile": {
+        "habits": [
+          "Reviews overnight global market action and pre-market futures before his morning workout",
+          "Reads at least one 10-K or earnings transcript per day — annotates in the margins",
+          "Maintains a running investment journal where he logs every thesis, entry, exit, and post-mortem analysis",
+          "Publishes a weekly market commentary every Monday morning for the firm's clients"
+        ],
+        "hobbies_and_interests": [
+          "Basketball (plays in a weekend recreational league)",
+          "Italian cooking (serious home cook; makes fresh pasta from scratch)",
+          "History and military strategy books (Thucydides, Clausewitz, and modern geopolitical analysis)",
+          "Coaching his son's youth basketball team"
+        ],
+        "media_diet": [
+          "Bloomberg Terminal real-time news and data throughout the trading day",
+          "Financial Times, Wall Street Journal, and Barron's daily",
+          "SEC EDGAR filings — 13F, 13D, Form 4 insider transactions",
+          "Academic finance papers (SSRN, Journal of Finance, Journal of Portfolio Management)",
+          "Podcasts: Rational Reminder, Odd Lots (Bloomberg), The Meb Faber Show"
+        ],
+        "social_circle": "Close with his investment team; strong relationships with sell-side analysts and institutional contacts; CFA Society and CMT Association network; childhood friends from his old neighborhood; his wife's corporate network provides cross-industry insights",
+        "trust_baseline": "medium",
+        "biases_to_watch": [
+          "Overconfidence in quantitative models — risk of overfitting to historical data",
+          "Anchoring on his own published views — may be slow to reverse a public thesis",
+          "Competing conflict style can come across as dismissive to less technical audiences",
+          "Home country bias — may underweight international equity opportunities",
+          "Narrative fallacy — may construct overly neat stories to explain random market moves"
+        ]
+      },
+      "backstory": {
+        "one_paragraph_summary": "Rafael Castellano grew up in a working-class Italian American family in Staten Island. His father ran a construction company and expected Rafael to join the business, but Rafael was drawn to numbers and markets from an early age. He earned a scholarship to study financial engineering, passed all three CFA exams on the first attempt, and built his career on the buy side — starting as a junior analyst and rising to senior portfolio strategist over 24 years. He weathered the dot-com crash, the 2008 financial crisis, the COVID market shock, and the 2022 rate-hiking cycle. Each crisis sharpened his risk management discipline. He now leads equity strategy for a mid-size advisory firm, overseeing model portfolios used across 2,400+ client accounts, while publishing market research that is widely read in the advisory community.",
+        "formative_events": [
+          "Watching his father's construction business nearly fail during the early 1990s recession — instilling a deep respect for financial planning and risk management",
+          "The dot-com crash of 2000-2002 during his early career — seeing clients and colleagues devastated by concentrated tech positions taught him the necessity of diversification",
+          "The 2008 financial crisis — being on the trading desk when Lehman collapsed; the visceral experience of systemic risk shaped his entire risk management philosophy",
+          "Publishing his first research paper on tax-loss harvesting — the recognition and citations gave him confidence in his voice as a thought leader"
+        ],
+        "current_challenges": [
+          "Navigating the current interest rate regime and its implications for equity valuations and factor rotation",
+          "Advising clients on AI-related sector concentration in major indices (S&P 500 top-heaviness)",
+          "Managing the tension between clients who want to chase momentum in speculative names and his disciplined, evidence-based approach",
+          "Preparing for potential changes to capital gains tax rates and their impact on portfolio positioning"
+        ],
+        "near_term_goals": [
+          "Launch a new tax-managed direct indexing model portfolio for high-net-worth taxable accounts",
+          "Publish a research piece on factor regime changes in a rising rate environment",
+          "Complete his CMT Level III research project on integrating technical and fundamental signals"
+        ],
+        "long_term_aspirations": [
+          "Become the firm's Chief Investment Officer within 3–5 years",
+          "Write a book on evidence-based investing for retail investors — accessible but rigorous",
+          "Build a scholarship fund for first-generation college students interested in finance",
+          "Eventually teach a graduate-level portfolio management course at Columbia or NYU"
+        ]
+      },
+      "scenario_hooks": {
+        "as_a_client_or_patient": {
+          "presenting_problem": "Right knee pain recurring after previous meniscus surgery; concerned it's affecting his gym routine and basketball coaching",
+          "constraints": [
+            "Early morning appointments only (before 7 AM or after market close at 4 PM)",
+            "Expects data — wants imaging, measurable benchmarks, and a structured rehabilitation protocol",
+            "Will research any recommendation independently before complying",
+            "Does not want to stop physical activity entirely — needs modified exercise alternatives"
+          ],
+          "what_help_looks_like": "An orthopedic specialist who provides a clear diagnosis, evidence-based treatment options with probabilities, and a structured timeline for return to full activity",
+          "what_will_frustrate_them": [
+            "Vague prognoses without supporting data or imaging",
+            "Being told to 'just rest' without a rehabilitation plan",
+            "Providers who run behind schedule or seem disorganized",
+            "Feeling like a number rather than a patient — he values competence and efficiency, not warmth for warmth's sake"
+          ]
+        },
+        "as_a_professional": {
+          "case_or_task_type_they_handle": "Equity market analysis, model portfolio construction and rebalancing, concentrated stock diversification, tax-efficient investment strategies, market commentary, client education during volatility, and suitability reviews for investment recommendations",
+          "professional_dilemmas": [
+            "A long-standing client insists on putting 30% of their retirement portfolio into a single AI stock — fiduciary duty vs. client autonomy",
+            "The firm's leadership wants to launch a crypto-focused product to capture demand — Rafael believes it doesn't meet suitability standards for most clients",
+            "A model portfolio he designed underperformed its benchmark this quarter due to a sector underweight — explaining the reasoning while maintaining client confidence",
+            "A newer advisor on his team is recommending options strategies to clients who don't understand the risk — addressing the issue without destroying the relationship",
+            "Potential MNPI situation — a contact at a company casually shares information that could be material; navigating compliance obligations"
+          ],
+          "ethical_constraints": [
+            "Fiduciary duty under the Investment Advisers Act of 1940 — every recommendation must be in the client's best interest",
+            "SEC Rule 10b-5 — strict prohibition on trading on material non-public information",
+            "FINRA suitability and Regulation Best Interest compliance",
+            "Cannot guarantee performance outcomes — must communicate in probabilities and ranges",
+            "Tax advice must be accurate and grounded in current IRC provisions — recommend CPA for implementation",
+            "Personal trading must comply with the firm's restricted list and pre-clearance policies"
+          ],
+          "interaction_style_with_public": "Direct, data-driven, and intellectually engaging; leads with facts and historical context; uses charts and visuals to make complex concepts tangible; respects client intelligence but adjusts complexity to the audience; follows up every meeting with a written summary of recommendations and rationale"
+        }
+      },
+      "dialogue_samples": {
+        "greeting": "Good morning. I've pulled up your portfolio and the latest market data. Before we get into positioning, tell me — has anything changed on your end? New goals, upcoming liquidity needs, or concerns I should know about?",
+        "under_stress": "Look, the S&P is down 12% from the high. That's uncomfortable but it's not unusual — we've seen drawdowns of this magnitude 26 times since 1950 and the market recovered every single time. Your portfolio was built for this. Let me walk you through the stress test we ran last quarter — you're positioned well. The worst thing we can do right now is sell into fear.",
+        "when_satisfied": "That tax-loss harvesting we executed in October just offset $85,000 in capital gains. That's real money — after-tax alpha that compounds over decades. This is why we stay disciplined.",
+        "when_refusing": "I hear you, and I understand the excitement around that name. But I can't recommend a 30% position in a single stock for your retirement account — that's not diversification, that's speculation. My job is to protect your ability to compound over the next 30 years. Let me show you how we can get exposure to that thesis in a way that doesn't put your plan at risk."
+      },
+      "quality_checks": {
+        "internal_consistency_pass": true,
+        "non_stereotyping_pass": true,
+        "notes": [
+          "MS in Financial Engineering completed by ~23, 24 years of experience at 47 — timeline is consistent",
+          "CFA, CMT, Series 7/66 credentials are realistically achievable given his education and career path",
+          "Income bracket reflects realistic compensation for a senior strategist at a mid-size advisory firm in Manhattan",
+          "Italian American identity is descriptive — professional competence and personality derive from education, experience, and values",
+          "His working-class background and current upper-income status reflect a realistic career trajectory in finance"
+        ]
+      }
+    }
+  ]
+}

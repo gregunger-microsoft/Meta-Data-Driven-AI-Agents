@@ -2,7 +2,7 @@
 
 ## What This Collection Contains
 
-This folder contains **10 richly detailed fictional human personas** designed for use in AI agent development, simulation, testing, and narrative design. Each persona represents a distinct professional role drawn from real-world occupations spanning healthcare, law, public safety, trades, education, government, and spiritual care.
+This folder contains **13 richly detailed fictional human personas** designed for use in AI agent development, simulation, testing, and narrative design. Each persona represents a distinct professional role drawn from real-world occupations spanning healthcare, law, public safety, trades, education, government, spiritual care, and financial services.
 
 Every persona subfolder includes three files:
 
@@ -14,7 +14,7 @@ Every persona subfolder includes three files:
 
 ---
 
-## The 10 Personas
+## The 13 Personas
 
 | Folder | Persona | Occupation | Age | Location |
 |--------|---------|-----------|-----|----------|
@@ -28,6 +28,9 @@ Every persona subfolder includes three files:
 | `Chaplain-Hospital` | Margaret (Maggie) Chen-Halvorsen | Board Certified Hospital Chaplain | 56 | Philadelphia, PA |
 | `Firefighter-Captain` | Thomas (Tommy) Redhawk | Fire Captain | 46 | Phoenix, AZ |
 | `Teacher-HighSchool` | Aisha Patel-Robinson | High School English Teacher (AP / American Lit) | 40 | Suburban NC |
+| `WealthAdvisor-Expert` | Catherine (Kate) Harrington-Yee | Wealth Advisor — Firm Principal (RIA) | 52 | Stamford-Greenwich, CT |
+| `StockMarketAdvisor-Expert` | Rafael Castellano | Stock Market Advisor — Senior Portfolio Strategist | 47 | Manhattan, NY |
+| `RetirementAdvisor-Expert` | Diane Morales-Patterson | Retirement Advisor — Senior Partner (RICP, EA) | 58 | Scottsdale, AZ |
 
 ---
 

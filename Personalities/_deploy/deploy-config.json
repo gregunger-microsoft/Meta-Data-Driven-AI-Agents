@@ -43,6 +43,18 @@
         "Teacher-HighSchool": {
             "enabled": true,
             "agent_name": "Personality-Teacher-HighSchool"
+        },
+        "WealthAdvisor-Expert": {
+            "enabled": true,
+            "agent_name": "Personality-WealthAdvisor-Expert"
+        },
+        "StockMarketAdvisor-Expert": {
+            "enabled": true,
+            "agent_name": "Personality-StockMarketAdvisor-Expert"
+        },
+        "RetirementAdvisor-Expert": {
+            "enabled": true,
+            "agent_name": "Personality-RetirementAdvisor-Expert"
         }
     }
 }

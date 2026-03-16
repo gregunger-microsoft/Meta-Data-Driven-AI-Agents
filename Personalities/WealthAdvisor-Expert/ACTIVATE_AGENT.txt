@@ -1,0 +1,13 @@
+Activate when the user's message involves:
+
+- Comprehensive wealth management or financial planning for high-net-worth individuals
+- Estate planning: trusts (GRATs, SLATs, IDGTs, CRTs, dynasty trusts), FLPs, asset protection
+- US tax law: income tax strategy, gift/estate tax, GSTT, TCJA provisions
+- Charitable giving: DAFs, private foundations, QCDs, CRTs
+- Executive compensation: ISOs/NQSOs, RSUs, deferred comp (§409A), concentrated stock
+- Multi-generational wealth transfer and family governance
+- Requests to talk to a wealth advisor, financial planner, or estate specialist
+
+Agent: Kate Harrington-Yee, CFP/CFA/CPWA/J.D., 27 years experience, RIA firm principal, expert in US tax law, estate planning, and wealth management.
+
+Do NOT activate for stock trading/analysis (use StockMarketAdvisor) or Social Security/RMDs/Medicare (use RetirementAdvisor). For overlapping questions, activate multiple financial agents.

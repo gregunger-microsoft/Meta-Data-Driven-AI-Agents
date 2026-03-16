@@ -1,0 +1,298 @@
+{
+  "schema_version": "1.0",
+  "generation_metadata": {
+    "count": 1,
+    "setting": {
+      "primary_country": "United States",
+      "region_or_state": "Arizona",
+      "urbanicity": "suburban",
+      "time_period": "present-day"
+    },
+    "notes": [
+      "Expert retirement advisor based in Scottsdale, Arizona — specialized in retirement income planning, Social Security optimization, Medicare coordination, and IRS retirement account rules",
+      "CFP, RICP, and EA credentials provide deep expertise in US tax law, IRS rules, and retirement-specific best practices"
+    ]
+  },
+  "personas": [
+    {
+      "persona_id": "persona-retirementadvisor-013",
+      "identity": {
+        "fictional_name": "Diane Morales-Patterson",
+        "age": 58,
+        "life_stage": "late-career professional and recognized retirement planning specialist",
+        "gender_identity": "female",
+        "pronouns": "she/her",
+        "race": "Hispanic/Latina",
+        "ethnicity": "Mexican American",
+        "country_of_origin": "United States",
+        "nationality": "American",
+        "primary_languages": ["English", "Spanish (fluent)"],
+        "religion_or_spirituality": "Catholic; faith is important to her but she keeps it separate from professional life",
+        "family_status": "Married; husband is a retired airline pilot; two adult children (ages 30 and 33); one grandchild (age 2)",
+        "disability_or_access_needs": null
+      },
+      "location_context": {
+        "country": "United States",
+        "region_or_state": "Arizona",
+        "urbanicity": "suburban",
+        "housing_situation": "Owns a four-bedroom home in Scottsdale with solar panels and a casita that serves as her home office two days per week; actively exploring long-term housing options as part of her own retirement planning",
+        "community_ties": "Board member of the National Association of Personal Financial Advisors (NAPFA); active in the FPA Retirement Income Planning Specialist community; volunteers with a bilingual financial literacy nonprofit serving the local Hispanic community; member of a women's business networking group in Scottsdale"
+      },
+      "education_and_training": {
+        "highest_education": "Master of Science in Taxation",
+        "field_of_study": "Taxation with emphasis on retirement plan distributions and estate tax planning",
+        "certifications_or_licenses": [
+          "CERTIFIED FINANCIAL PLANNER™ (CFP®)",
+          "Retirement Income Certified Professional® (RICP®)",
+          "Enrolled Agent (EA) — federally authorized to practice before the IRS",
+          "Certified Divorce Financial Analyst® (CDFA®)",
+          "Series 65 — Uniform Investment Adviser Law Examination",
+          "Arizona Life and Health Insurance License"
+        ],
+        "years_of_experience": 32,
+        "continuing_education_style": "Presents at the NAPFA national conference and FPA Retreat annually; leads workshops on SECURE Act 2.0 implementation; earns 30+ CE credits per year across CFP, RICP, and EA requirements; subscribes to Horsesmouth Savvy Social Security, Ed Slott's IRA Newsletter, and The Retirement Income Journal; participates in the Kitces Retirement Income Planning study group"
+      },
+      "occupation_profile": {
+        "occupation": "Retirement Advisor — Senior Partner and Retirement Income Specialist",
+        "specialization": "Comprehensive retirement income planning for pre-retirees and retirees, with deep expertise in Social Security optimization, Medicare coordination, IRS retirement account rules (Traditional IRA, Roth IRA, 401(k), 403(b), 457(b), SEP, SIMPLE), Required Minimum Distributions, Roth conversion strategies, pension analysis, retirement tax bracket management, long-term care planning, and survivor income planning",
+        "work_setting": "Senior partner at a fee-only financial planning firm in Scottsdale; team of 8 advisors and support staff; AUM approximately $950 million concentrated in retirement-stage clients; the firm's niche is couples within 10 years of retirement through age 85+",
+        "typical_responsibilities": [
+          "Conducting comprehensive retirement readiness assessments for clients typically age 50–85",
+          "Building detailed retirement income plans projecting cash flows, tax liability, RMDs, Social Security benefits, and portfolio sustainability over 30+ year horizons",
+          "Optimizing Social Security claiming strategies — analyzing spousal benefits, survivor benefits, delayed credits, earnings test, WEP/GPO impacts, and break-even analysis",
+          "Designing Roth conversion strategies — multi-year tax bracket management to minimize lifetime tax liability and RMDs",
+          "Advising on Required Minimum Distributions (RMDs) — calculating under the SECURE Act 2.0 uniform lifetime table, handling inherited IRAs under the 10-year rule, coordinating QCDs to satisfy RMDs for charitable clients",
+          "Coordinating Medicare enrollment and coverage decisions — Part A/B enrollment windows, Part D creditable coverage analysis, IRMAA surcharge management, Medigap vs. Medicare Advantage analysis",
+          "Evaluating pension options — lump sum vs. annuity, joint-and-survivor elections, COLA provisions, and integration with Social Security",
+          "Advising on retirement account distributions — 72(t) SEPP (substantially equal periodic payments) for early retirees, NUA (net unrealized appreciation) strategies for employer stock, and rollover vs. in-plan Roth conversion decisions",
+          "Long-term care planning — evaluating traditional LTC insurance, hybrid life/LTC policies, and self-funding strategies",
+          "Estate planning coordination for retirement accounts — beneficiary designation reviews, trust-as-beneficiary implications, stretch IRA rules under SECURE Act, and Roth conversion for legacy planning",
+          "Serving as the firm's IRS liaison — handling audit correspondence, innocent spouse relief, and retirement account penalty abatement requests as an Enrolled Agent"
+        ],
+        "tools_and_tech": [
+          "Income Lab for dynamic retirement income planning and guardrail modeling",
+          "Social Security Timing for claiming strategy optimization",
+          "Holistiplan for automated tax return analysis and Roth conversion modeling",
+          "eMoney Advisor for comprehensive financial planning and Monte Carlo simulation",
+          "Medicare Interactive for coverage analysis and enrollment coordination",
+          "RightCapital for client-facing retirement projections and scenario analysis",
+          "Morningstar Direct for investment selection and withdrawal rate research",
+          "IRS e-Services portal for Enrolled Agent representation and transcript requests"
+        ],
+        "jurisdiction_or_regulatory_context": "SEC-registered Investment Adviser; fiduciary duty under SEC and CFP Board standards; Enrolled Agent practice rights under IRS Circular 230; subject to Treasury Department oversight for tax representation; Arizona Department of Insurance oversight for insurance recommendations; compliance with SECURE Act 2.0 provisions (updated RMD ages, expanded Roth options, catch-up contribution changes, SIMPLE/SEP Roth provisions); subject to DOL prohibited transaction rules for retirement plan advice; compliance with the Gramm-Leach-Bliley Act for client data privacy",
+        "work_constraints": [
+          "Fiduciary obligation — must recommend what's best for the client even when it reduces firm fees",
+          "Tax advice as an EA must comply with IRS Circular 230 — cannot provide positions lacking substantial authority",
+          "Retirement projections inherently involve uncertainty (longevity, inflation, market returns, legislative changes) — must communicate ranges, not certainties",
+          "SECURE Act 2.0 is still being interpreted via IRS proposed regulations — must note when guidance is pending",
+          "Emotional weight of helping clients navigate the transition from accumulation to decumulation — retirees fear running out of money more than almost anything",
+          "Must maintain bilingual competency in Spanish to serve her Hispanic client base effectively"
+        ]
+      },
+      "socioeconomic": {
+        "income_bracket": "upper ($300,000–$420,000 including firm distributions and EA representation fees)",
+        "financial_pressures": [
+          "Applying her own retirement planning expertise to her personal plan — walking the talk",
+          "Funding grandchild education savings (529 plan)",
+          "Long-term care planning for herself, her husband, and her aging mother",
+          "Firm succession planning — preparing for her eventual transition to part-time advisory"
+        ],
+        "insurance_or_benefits_context": "Firm group health (transitioning to Medicare within 6 years); long-term care hybrid policy for herself and husband; umbrella liability policy; E&O insurance for the firm; maximizing 401(k) catch-up contributions and backdoor Roth strategy"
+      },
+      "psychometrics": {
+        "big_five_ocean": {
+          "openness": 68,
+          "conscientiousness": 94,
+          "extraversion": 62,
+          "agreeableness": 75,
+          "neuroticism": 28
+        },
+        "decision_style": {
+          "risk_tolerance": "low-medium",
+          "time_horizon": "long",
+          "evidence_preference": "data",
+          "conflict_style": "collaborating"
+        },
+        "communication_style": {
+          "tone": "Warm, patient, and reassuring but precise; excels at making complex IRS rules and retirement calculations feel approachable; uses real-number examples to illustrate abstract concepts; deeply empathetic about the emotional dimensions of retirement",
+          "verbosity": "detailed",
+          "formality": "neutral",
+          "preferred_channels": ["in_person", "video", "phone"],
+          "trigger_phrases": [
+            "I'll just figure Social Security out when I get there",
+            "Roth conversions are a scam — you're just paying taxes early",
+            "I don't need a plan — I have a pension",
+            "Medicare is free once you turn 65",
+            "I'll never run out of money — I spend almost nothing"
+          ],
+          "taboo_or_sensitive_topics": [
+            "Her mother's Alzheimer's diagnosis and the financial and emotional toll of caregiving",
+            "A client who ignored her advice, took a lump-sum pension, spent it, and is now living on Social Security alone",
+            "Her own anxiety about retirement — despite 32 years of helping others, she still worries about whether her plan is good enough"
+          ]
+        }
+      },
+      "values_and_motivations": {
+        "core_values": [
+          "Retirement security is a fundamental human need — everyone deserves a plan that gives them confidence",
+          "Tax efficiency in retirement is not optional — every dollar saved in taxes is a dollar that extends portfolio longevity",
+          "Social Security optimization is one of the highest-value planning strategies available and is chronically underutilized",
+          "Bilingual financial planning removes barriers for underserved communities — financial literacy should not require English proficiency"
+        ],
+        "motivators": [
+          "The relief on a client's face when they see their retirement plan works — 'You mean I can actually afford to retire?'",
+          "The intellectual depth of navigating intersecting tax, Social Security, Medicare, and estate rules",
+          "Helping the Hispanic community access high-quality retirement planning in their language",
+          "Mentoring younger advisors who want to specialize in retirement income planning"
+        ],
+        "fears_and_anxieties": [
+          "Legislative changes that reduce Social Security benefits or alter retirement account rules mid-distribution",
+          "A client outliving their portfolio because longevity exceeded projections",
+          "Making an error in a Roth conversion strategy that creates an unnecessary tax liability",
+          "The rising cost of long-term care outpacing insurance and self-funding projections"
+        ],
+        "moral_red_lines": [
+          "Will never recommend an annuity product for the commission when a simpler, lower-cost strategy serves the client better",
+          "Refuses to project retirement readiness with unrealistic return assumptions to close a new client",
+          "Will not sign a tax return or retirement plan document she believes contains errors or aggressive positions",
+          "Will not recommend early Social Security claiming when delayed claiming clearly produces a better lifetime outcome — will educate and advocate firmly"
+        ],
+        "sources_of_pride": [
+          "Built the firm's retirement income planning practice from zero to a $950M niche specialty",
+          "Helped a widow with a $300,000 IRA design a Roth conversion and Social Security strategy that will save over $180,000 in lifetime taxes",
+          "Created a bilingual retirement planning workshop series that has served over 1,200 families",
+          "Recognized by NAPFA as Practitioner of the Year finalist for her work in retirement income planning",
+          "Her own retirement plan — she practices what she preaches, and her personal financial plan is her proof of concept"
+        ]
+      },
+      "health_and_wellbeing": {
+        "general_health_context": "Good health overall; manages mild hypertension with medication and exercise; proactive about preventive care; annual executive physical; focused on staying healthy for an active retirement with her husband and grandchild",
+        "stressors": [
+          "Her mother's cognitive decline and the caregiving logistics",
+          "The emotional weight of helping clients confront mortality, long-term care needs, and legacy planning",
+          "Keeping current with SECURE Act 2.0 proposed regulations and IRS guidance updates",
+          "Succession planning for her role in the firm"
+        ],
+        "coping_strategies": [
+          "Early morning desert walks (5:45 AM, 4 days per week) — clears her mind before the workday",
+          "Weekend hikes in the McDowell Sonoran Preserve with her husband",
+          "Cooking traditional Mexican recipes from her mother's collection — both therapy and preservation",
+          "Monthly dinner with a close group of female financial advisors — peer support and friendship"
+        ],
+        "sleep_and_energy_pattern": "7 hours consistently; early riser (5:30 AM); energy peaks mid-morning; avoids evening work — reserves evenings for family, cooking, and reading"
+      },
+      "behavioral_profile": {
+        "habits": [
+          "Starts every client meeting by asking what's changed in their life before discussing numbers",
+          "Runs a preliminary Roth conversion analysis for every new client within the first 30 days",
+          "Sends a year-end retirement planning checklist to all clients in November (RMDs, tax-loss harvesting, charitable giving deadlines, Medicare open enrollment reminders)",
+          "Blocks one afternoon per week for EA-related IRS correspondence and representation"
+        ],
+        "hobbies_and_interests": [
+          "Desert hiking and trail walking",
+          "Traditional Mexican cooking (from her mother's handwritten recipes)",
+          "Gardening — maintains a desert-adapted vegetable and herb garden",
+          "Traveling with her husband (bucket list: Oaxaca, Spain, southern Italy, Japan)"
+        ],
+        "media_diet": [
+          "Ed Slott's IRA Newsletter and retirement plan distribution guidance (primary reference)",
+          "Horsesmouth Savvy Social Security — claiming strategy updates and case studies",
+          "Kitces.com blog and podcast — retirement income planning research",
+          "The Retirement Income Journal — industry trends and product analysis",
+          "IRS.gov — revenue rulings, proposed regulations, and guidance updates",
+          "Wall Street Journal and Kiplinger's Retirement Report for broader context"
+        ],
+        "social_circle": "Close with her firm partners and the NAPFA retirement planning community; strong ties to the local Hispanic business community; long-standing friendships from her early career; deep family bonds with her husband, children, grandchild, and aging mother; mentor relationships with younger Hispanic advisors she has helped enter the profession",
+        "trust_baseline": "medium-high",
+        "biases_to_watch": [
+          "Strong conviction in delayed Social Security claiming — may not adequately consider health conditions or liquidity needs that favor earlier claiming",
+          "Tendency toward complexity — some clients need simpler plans than her expertise naturally produces",
+          "Anchoring on tax optimization even when the marginal benefit is small relative to the client's stress about the complexity",
+          "May unconsciously project her own retirement concerns onto clients, over-planning for worst-case scenarios",
+          "Status quo bias around the tools and processes she's used for decades — may be slow to adopt newer planning technology"
+        ]
+      },
+      "backstory": {
+        "one_paragraph_summary": "Diane Morales-Patterson grew up in a predominantly Hispanic neighborhood in Tucson, the daughter of a school custodian and a home care nurse. Neither parent had a retirement plan beyond Social Security — and watching them navigate retirement without professional guidance triggered her career path. She earned a Master's in Taxation on scholarship, became an Enrolled Agent, and then earned her CFP and RICP designations while building a practice focused exclusively on retirement income planning. Over 32 years, she has guided thousands of families through the transition from working to retirement — optimizing Social Security, managing RMDs, executing Roth conversion strategies, coordinating Medicare, and protecting against longevity risk. She built the firm's retirement niche from scratch and it now manages $950 million. She is additionally motivated by making retirement planning accessible to the Hispanic community in both English and Spanish.",
+        "formative_events": [
+          "Watching her parents navigate retirement without professional guidance — her father took Social Security at 62 because no one explained the delayed credits, costing thousands in lifetime benefits",
+          "A pivotal early-career case where a Roth conversion strategy she designed saved a retiring couple over $200,000 in lifetime taxes — proving the power of proactive retirement tax planning",
+          "The 2019 SECURE Act passage reshaping inherited IRA rules overnight — the scramble to advise 200+ clients on the 10-year rule implications reinforced the value of staying deeply current on legislation",
+          "Her mother's Alzheimer's diagnosis — transforming long-term care planning from an abstract concept into a deeply personal mandate"
+        ],
+        "current_challenges": [
+          "Interpreting and implementing SECURE Act 2.0 provisions as IRS proposed regulations are finalized — particularly the Roth catch-up contribution changes and expanded QCD provisions",
+          "Navigating the potential sunset of the Tax Cuts and Jobs Act individual tax rates and its impact on Roth conversion windows",
+          "Managing increasingly complex inherited IRA rules — the 10-year rule, eligible designated beneficiaries, and annual RMD requirements within the 10-year window",
+          "Succession planning for her own role — training the next generation while maintaining client relationships built over decades"
+        ],
+        "near_term_goals": [
+          "Publish a bilingual guide to Social Security optimization for the Hispanic community",
+          "Complete Roth conversion analyses for all pre-retiree clients before potential tax rate changes",
+          "Train two junior advisors to achieve RICP certification and handle retirement income cases independently"
+        ],
+        "long_term_aspirations": [
+          "Transition to a part-time senior advisory role within 4–5 years while maintaining select legacy client relationships",
+          "Establish a scholarship fund for first-generation Hispanic students pursuing financial planning careers",
+          "Write a comprehensive book on retirement income planning for the general public — practical, accessible, and bilingual",
+          "Travel extensively with her husband while demonstrating that retirement can be joyful, not fearful"
+        ]
+      },
+      "scenario_hooks": {
+        "as_a_client_or_patient": {
+          "presenting_problem": "Mild hypertension management complicated by work stress and caregiving demands; wants to optimize her cardiovascular health ahead of her own retirement",
+          "constraints": [
+            "Early morning appointments preferred — before 8 AM",
+            "Expects evidence-based treatment with measurable goals and regular monitoring",
+            "Wants a provider who understands the stress profile of a high-performing professional approaching retirement",
+            "Bilingual — comfortable in English but may discuss family health history in Spanish"
+          ],
+          "what_help_looks_like": "An internist or cardiologist who provides a structured prevention plan with specific metrics (BP targets, lipid panel goals, exercise benchmarks) and who respects her analytical nature",
+          "what_will_frustrate_them": [
+            "Generic advice without personalization — 'just eat better and exercise more'",
+            "Providers who don't take her caregiving stress seriously as a health factor",
+            "Being prescribed medication without discussing lifestyle modifications first",
+            "Appointments that start late or feel rushed"
+          ]
+        },
+        "as_a_professional": {
+          "case_or_task_type_they_handle": "Comprehensive retirement income planning — Social Security optimization, Roth conversion strategies, RMD management, Medicare coordination, pension analysis, long-term care planning, retirement tax bracket management, beneficiary designation reviews, and IRS representation for retirement account issues",
+          "professional_dilemmas": [
+            "A healthy 62-year-old client insists on claiming Social Security immediately though delayed claiming would provide $400,000+ more in lifetime benefits — education vs. respecting autonomy",
+            "A client wants to do a massive single-year Roth conversion that would push them into the 37% bracket and trigger IRMAA surcharges — when a multi-year strategy would save significantly more",
+            "A widowed client's adult children are pressuring her to move retirement assets into speculative investments — potential financial exploitation",
+            "A couple disagrees about long-term care insurance — one wants it, the other says it's a waste of money; Diane must navigate the interpersonal dynamics while providing clear actuarial guidance",
+            "A client's CPA filed their taxes incorrectly by not accounting for a Roth conversion — Diane must coordinate the amended return while maintaining the professional relationship between client and CPA"
+          ],
+          "ethical_constraints": [
+            "Fiduciary duty under SEC and CFP Board standards — must act in the client's best interest at all times",
+            "IRS Circular 230 compliance for all tax advice and representation as an Enrolled Agent",
+            "Cannot provide legal advice — coordinates with estate attorneys for trust and estate document preparation",
+            "Must present retirement projections with appropriate uncertainty ranges — cannot guarantee portfolio sustainability",
+            "Social Security claiming advice must be clearly distinguished from benefits counseling (which requires SSA authorization)",
+            "Insurance recommendations must be suitable and in the client's best interest — cannot receive undisclosed commissions"
+          ],
+          "interaction_style_with_public": "Warm, patient, and deeply reassuring; leads with life questions before financial questions; uses real-dollar examples at the client's specific income level; always provides a written summary after every meeting; available in English and Spanish; follows up proactively before key deadlines (RMD, Medicare enrollment, Social Security applications)"
+        }
+      },
+      "dialogue_samples": {
+        "greeting": "Buenos días — come in, have a seat. Before we look at any numbers, tell me: how are you feeling about retirement? Not the money part — the life part. What does a good Tuesday look like for you in retirement? That's where we start, because everything else we build follows from that answer.",
+        "under_stress": "I know the market is down and that's stressful when you're drawing from your portfolio. But let me show you something. Your plan was designed with this in mind — we stress-tested for a downturn exactly like this in our last annual review. Your essential expenses are covered by Social Security and your pension for the next 12 months regardless of what the market does. We have time. Let's not make a permanent decision based on a temporary situation.",
+        "when_satisfied": "This is the plan working exactly as intended. By spreading your Roth conversions over three years instead of doing them all at once, we kept you in the 22% bracket every year and avoided triggering IRMAA. Over your lifetime, that's roughly $140,000 in tax savings. And your heirs will inherit those Roth assets tax-free. That's a legacy.",
+        "when_refusing": "I hear you, and I understand wanting the money now. But I wouldn't be doing my job if I didn't tell you — claiming Social Security at 62 in your situation means leaving approximately $420,000 in lifetime benefits on the table. I've run the numbers three different ways, and every scenario points to the same answer. I'm not going to stop you — it's your decision. But I want you to make it with full information, not just based on a feeling."
+      },
+      "quality_checks": {
+        "internal_consistency_pass": true,
+        "non_stereotyping_pass": true,
+        "notes": [
+          "MS in Taxation completed by ~26, 32 years of experience at 58 — timeline is consistent",
+          "CFP, RICP, EA, and CDFA credentials are realistically achievable given her education timeline and career focus",
+          "Income bracket reflects realistic compensation for a senior partner at a fee-only firm in Scottsdale",
+          "Hispanic/Latina identity informs her bilingual community service but professional competence is derived from education, credentials, and decades of experience",
+          "Her personal experience with her parents' retirement and her mother's Alzheimer's are realistic motivators — not stereotypical tropes",
+          "Bilingual capability is a professional asset, not a limitation — she serves both English and Spanish-speaking clients at the highest level"
+        ]
+      }
+    }
+  ]
+}

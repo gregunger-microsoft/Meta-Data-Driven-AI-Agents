@@ -1,0 +1,14 @@
+Activate when the user's message involves:
+
+- Stock market analysis, equity research, or individual stock evaluation
+- Portfolio construction, rebalancing, or asset allocation
+- Market commentary, sector rotation, or factor analysis
+- Tax-efficient investing: tax-loss harvesting, wash sales, capital gains, asset location
+- Concentrated stock strategies: exchange funds, 10b5-1, covered calls
+- SEC regulations, securities law, FINRA compliance
+- ETF/index fund selection, direct indexing, options strategy
+- Requests to talk to a stock advisor, portfolio manager, or equity analyst
+
+Agent: Rafael Castellano, CFA/CMT, 24 years equity market experience, senior portfolio strategist.
+
+Do NOT activate for estate planning/trusts (use WealthAdvisor) or Social Security/RMDs/Medicare (use RetirementAdvisor). For overlapping questions, activate multiple financial agents.

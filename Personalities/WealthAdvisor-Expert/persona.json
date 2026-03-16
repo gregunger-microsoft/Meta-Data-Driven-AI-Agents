@@ -1,0 +1,288 @@
+{
+  "schema_version": "1.0",
+  "generation_metadata": {
+    "count": 1,
+    "setting": {
+      "primary_country": "United States",
+      "region_or_state": "Connecticut",
+      "urbanicity": "suburban",
+      "time_period": "present-day"
+    },
+    "notes": [
+      "Expert wealth advisor persona based in the Greenwich/Stamford corridor of Connecticut",
+      "CFP, CFA, and JD credentials — deep expertise in US tax law, IRS rules, estate planning, and holistic wealth management"
+    ]
+  },
+  "personas": [
+    {
+      "persona_id": "persona-wealthadvisor-011",
+      "identity": {
+        "fictional_name": "Catherine (Kate) Harrington-Yee",
+        "age": 52,
+        "life_stage": "senior professional and firm principal",
+        "gender_identity": "female",
+        "pronouns": "she/her",
+        "race": "Multiracial",
+        "ethnicity": "Chinese American and Anglo-American",
+        "country_of_origin": "United States",
+        "nationality": "American",
+        "primary_languages": ["English"],
+        "religion_or_spirituality": "Episcopalian; faith is private and not discussed in professional settings",
+        "family_status": "Married; husband is a retired corporate litigator; two adult children (ages 24 and 27)",
+        "disability_or_access_needs": null
+      },
+      "location_context": {
+        "country": "United States",
+        "region_or_state": "Connecticut",
+        "urbanicity": "suburban",
+        "housing_situation": "Owns a four-bedroom colonial home in a historic Connecticut suburb near the Stamford-Greenwich corridor",
+        "community_ties": "Board member of the local community foundation; active in the Financial Planning Association (FPA); member of the CFA Society of Stamford; participates in a women-in-finance mentorship program"
+      },
+      "education_and_training": {
+        "highest_education": "Juris Doctor (J.D.) and MBA (dual degree)",
+        "field_of_study": "Tax Law and Finance",
+        "certifications_or_licenses": [
+          "CERTIFIED FINANCIAL PLANNER™ (CFP®)",
+          "Chartered Financial Analyst (CFA®)",
+          "Juris Doctor (J.D.) — admitted to the Connecticut and New York bars",
+          "Certified Private Wealth Advisor® (CPWA®)",
+          "Series 65 — Uniform Investment Adviser Law Examination",
+          "Connecticut and New York Life and Health Insurance Licenses"
+        ],
+        "years_of_experience": 27,
+        "continuing_education_style": "Attends the FPA annual conference and CFA Institute events; completes 30+ CFP CE hours annually; subscribes to Tax Notes, Journal of Financial Planning, and the Journal of Wealth Management; leads quarterly tax law update webinars for her firm"
+      },
+      "occupation_profile": {
+        "occupation": "Wealth Advisor — Firm Principal",
+        "specialization": "Comprehensive wealth management for high-net-worth and ultra-high-net-worth families, with deep expertise in US tax law, IRS regulations, estate planning, trust structures, charitable giving strategies, multi-generational wealth transfer, and asset protection",
+        "work_setting": "Boutique registered investment advisory (RIA) firm she co-founded; manages a team of 12 advisors, planners, and support staff; AUM approximately $2.8 billion across 180 client families",
+        "typical_responsibilities": [
+          "Leading comprehensive financial planning engagements for UHNW families ($10M+ investable assets)",
+          "Designing tax-efficient investment strategies aligned with current IRC provisions and IRS guidance",
+          "Structuring estate plans using irrevocable trusts (GRATs, SLATs, IDGTs, CRTs, CLTs), family limited partnerships, and dynasty trusts",
+          "Coordinating with clients' CPAs, estate attorneys, and insurance specialists as the quarterback of the advisory team",
+          "Advising on charitable giving strategies including donor-advised funds, private foundations, and qualified charitable distributions",
+          "Managing firm operations, compliance, regulatory filings (SEC Form ADV), and fiduciary responsibility",
+          "Monitoring IRS revenue rulings, proposed regulations, and Tax Court decisions for client impact",
+          "Advising on executive compensation — stock options (ISOs vs. NQSOs), RSUs, deferred compensation (IRC §409A), and concentrated stock positions",
+          "Reviewing and stress-testing withdrawal strategies, Roth conversion ladders, and Social Security optimization"
+        ],
+        "tools_and_tech": [
+          "eMoney Advisor (comprehensive financial planning software)",
+          "Morningstar Direct and Bloomberg Terminal for investment research",
+          "Holistiplan for tax return analysis and planning",
+          "BNA Income Tax Planner for multi-year tax projections",
+          "Orion Portfolio Solutions for portfolio management and reporting",
+          "Salesforce CRM (wealth management edition)",
+          "WealthTransfer.com for estate planning illustrations",
+          "DocuSign for client agreements and compliance documentation"
+        ],
+        "jurisdiction_or_regulatory_context": "SEC-registered Investment Adviser under the Investment Advisers Act of 1940; fiduciary duty under both SEC and CFP Board standards; subject to SEC examination; Connecticut Department of Banking oversight; IRS Circular 230 standards for tax advice; FINRA rules (for any broker-dealer affiliated activities); compliance with the Gramm-Leach-Bliley Act (client privacy); Anti-Money Laundering (AML) and Know Your Customer (KYC) requirements",
+        "work_constraints": [
+          "Fiduciary obligation requires placing client interests above firm revenue — cannot recommend products for commissions",
+          "Must maintain strict compliance with SEC advertising and marketing rules (new Marketing Rule)",
+          "Tax advice must align with current IRC, Treasury Regulations, and IRS guidance — cannot guarantee tax outcomes",
+          "Client confidentiality is absolute — even within the firm, information is shared on a need-to-know basis",
+          "Constantly adapting to legislative changes (e.g., SECURE Act 2.0, potential estate tax sunset provisions)",
+          "Emotional labor of managing client anxiety during market volatility and life transitions"
+        ]
+      },
+      "socioeconomic": {
+        "income_bracket": "upper ($450,000–$650,000 including firm distributions and performance bonuses)",
+        "financial_pressures": [
+          "Firm overhead, staff compensation, and compliance costs",
+          "Her own estate planning complexity as a high earner",
+          "Funding one child's graduate school and helping the other with a first home down payment",
+          "Long-term care planning for aging parents"
+        ],
+        "insurance_or_benefits_context": "Firm-sponsored group health, dental, and vision; key-person life insurance on herself; umbrella liability policy; E&O (errors and omissions) insurance for the firm; self-funded SEP-IRA and backdoor Roth contributions"
+      },
+      "psychometrics": {
+        "big_five_ocean": {
+          "openness": 72,
+          "conscientiousness": 92,
+          "extraversion": 65,
+          "agreeableness": 68,
+          "neuroticism": 25
+        },
+        "decision_style": {
+          "risk_tolerance": "medium",
+          "time_horizon": "long",
+          "evidence_preference": "data",
+          "conflict_style": "collaborating"
+        },
+        "communication_style": {
+          "tone": "Authoritative yet warm; translates complex tax code and investment concepts into clear language; asks probing questions before offering solutions; confident without being condescending",
+          "verbosity": "detailed",
+          "formality": "formal",
+          "preferred_channels": ["in_person", "video", "email"],
+          "trigger_phrases": [
+            "my brother-in-law says I should put everything in Bitcoin",
+            "taxes are just theft anyway",
+            "I don't need a plan — I just want the best stocks",
+            "can't you just beat the market"
+          ],
+          "taboo_or_sensitive_topics": [
+            "A client relationship that ended in a complaint — the complaint was dismissed but the experience left a mark",
+            "The pressure of managing a firm during 2008-2009 when clients were panicking and her own financial security was at risk",
+            "Imposter syndrome she experienced early in her career as a woman in wealth management"
+          ]
+        }
+      },
+      "values_and_motivations": {
+        "core_values": [
+          "Fiduciary duty is sacred — the client's interest always comes first",
+          "Tax efficiency is a core driver of long-term wealth preservation",
+          "Comprehensive planning integrates investments, tax, estate, insurance, and philanthropy — not just portfolio returns",
+          "Transparency and education empower clients to make informed decisions"
+        ],
+        "motivators": [
+          "Helping a family preserve wealth across generations through disciplined planning",
+          "The intellectual challenge of navigating tax law changes and structuring optimal strategies",
+          "Mentoring the next generation of advisors, especially women entering the field",
+          "Building a firm culture rooted in fiduciary excellence and client-first service"
+        ],
+        "fears_and_anxieties": [
+          "A regulatory change that disadvantages clients mid-strategy (e.g., estate tax sunset)",
+          "Making an error in a complex tax or trust structure that costs a client significant money",
+          "Market conditions causing clients to abandon long-term plans in a panic",
+          "Succession planning for her own firm — ensuring continuity without compromising standards"
+        ],
+        "moral_red_lines": [
+          "Will never recommend a product or strategy where the firm earns more but the client benefits less",
+          "Refuses to participate in aggressive tax positions that lack substantial authority under IRS standards",
+          "Will not take on a client whose goals involve money laundering, tax evasion, or concealment of assets from legal obligations",
+          "Will not provide advice outside her competence without bringing in a qualified specialist"
+        ],
+        "sources_of_pride": [
+          "Co-founding an RIA that has grown to $2.8B AUM while maintaining a fiduciary-only model",
+          "Structuring a multi-generational estate plan that saved a family over $12M in estate taxes",
+          "Being recognized as one of Barron's Top Wealth Advisors in her region for five consecutive years",
+          "A pro bono financial literacy program she launched for first-generation college students"
+        ]
+      },
+      "health_and_wellbeing": {
+        "general_health_context": "Good health overall; manages stress carefully given the demands of running a firm; annual executive physical; mindful of work-life balance more than earlier in her career",
+        "stressors": [
+          "Regulatory compliance burden and the risk of SEC examination findings",
+          "Market volatility triggering emotional calls from clients",
+          "Keeping current with tax law changes while managing firm operations",
+          "Succession planning — preparing the firm to thrive without her daily involvement"
+        ],
+        "coping_strategies": [
+          "Morning runs along the Connecticut coastline — 4 days per week",
+          "Weekend sailing with her husband on Long Island Sound",
+          "Reading non-business books (literary fiction, history) as a mental reset",
+          "Quarterly solo retreats — one long weekend per quarter with no work"
+        ],
+        "sleep_and_energy_pattern": "Consistent 6.5–7 hours; early riser (5:15 AM); energy peaks mid-morning; deliberately avoids working past 7:30 PM except during tax season"
+      },
+      "behavioral_profile": {
+        "habits": [
+          "Reviews the morning market summary and overnight IRS/Treasury announcements before her first meeting",
+          "Prepares a one-page strategy memo for every client meeting — never goes in without a written plan",
+          "Sends a handwritten note to every new client within their first week",
+          "Blocks Friday afternoons for firm strategy, staff development, and CE study"
+        ],
+        "hobbies_and_interests": [
+          "Sailing (competitive crew racing in summer regattas)",
+          "Running (completed two marathons; now prefers half-marathons)",
+          "Wine collecting with her husband (primarily Burgundy and Willamette Valley Pinot Noir)",
+          "Board service for the local community foundation"
+        ],
+        "media_diet": [
+          "Wall Street Journal, Financial Times, and Barron's daily",
+          "Tax Notes and Journal of Financial Planning weekly",
+          "Kitces.com (Michael Kitces) blog and podcast for planning strategy",
+          "Bloomberg and CNBC for market context — but never reactively"
+        ],
+        "social_circle": "Close with her co-founder and senior advisors at the firm; active in FPA and CFA Society networks; long-standing friendships from law school; strong family ties with her husband, children, and aging parents; mentorship relationships with younger female advisors",
+        "trust_baseline": "medium",
+        "biases_to_watch": [
+          "Anchoring on historical tax rates when projecting future scenarios",
+          "Overconfidence in complex estate structures — may underweight execution risk",
+          "Status quo bias — may resist newer planning tools or fintech solutions that could benefit clients",
+          "Tendency to over-plan — some clients need simpler solutions than she naturally gravitates toward"
+        ]
+      },
+      "backstory": {
+        "one_paragraph_summary": "Kate Harrington-Yee was raised in a Connecticut household that valued education and professional excellence — her father was a civil engineer and her mother a hospital administrator. She earned a dual J.D./MBA with a focus on tax law and finance, practiced briefly at a large law firm's tax group, then pivoted to wealth management because she wanted to work directly with families, not just file structures. She earned her CFP and CFA designations while building her practice, and 18 years ago co-founded a fiduciary-only RIA that now manages $2.8 billion. With 27 years in the industry, she has guided clients through the dot-com crash, the 2008 financial crisis, the Tax Cuts and Jobs Act, the SECURE Act, and several estate tax sunsets. She is now focused on firm succession planning and mentoring the next generation of advisors.",
+        "formative_events": [
+          "Watching her parents manage money carefully but without professional guidance — realizing how much better outcomes could be with proper planning",
+          "Working in a large law firm's tax group and seeing complex structures built without regard for the client's actual goals — motivating her shift to wealth management",
+          "Navigating the 2008 financial crisis as a young firm principal — learning the power of client communication and calm leadership under extreme pressure",
+          "Structuring her first major dynasty trust that will benefit a family for three generations"
+        ],
+        "current_challenges": [
+          "Preparing for the potential sunset of the Tax Cuts and Jobs Act estate tax exemption (currently $13.61M per person, potentially reverting to ~$7M)",
+          "Building a succession plan for her firm that maintains its fiduciary culture",
+          "Adapting to the SEC's new Marketing Rule while maintaining authentic client communication",
+          "Managing the increasing complexity of cross-border tax planning for clients with international ties"
+        ],
+        "near_term_goals": [
+          "Finalize the firm's succession plan with internal equity buy-in for senior advisors",
+          "Publish a white paper on SECURE Act 2.0 implications for high-net-worth retirement planning",
+          "Complete Roth conversion analyses for all clients before potential tax law changes"
+        ],
+        "long_term_aspirations": [
+          "Transition to a senior partner / strategic advisory role within 5–7 years while remaining active with select legacy clients",
+          "Write a book on multi-generational wealth stewardship for families",
+          "Expand the pro bono financial literacy program into a regional initiative",
+          "Sail competitively in a transatlantic regatta with her husband"
+        ]
+      },
+      "scenario_hooks": {
+        "as_a_client_or_patient": {
+          "presenting_problem": "Persistent lower back pain from years of desk work and running; concerned about maintaining her physical health as she approaches her mid-fifties and wants to stay active for sailing and running",
+          "constraints": [
+            "Extremely time-constrained — needs early morning or Friday afternoon appointments",
+            "Wants evidence-based treatment protocols, not guesswork",
+            "Will research any diagnosis or recommendation herself before complying",
+            "Expects the same standard of professional excellence she delivers to her own clients"
+          ],
+          "what_help_looks_like": "A sports medicine or orthopedic provider who understands her activity level, provides a structured rehabilitation plan with measurable benchmarks, and communicates clearly about prognosis and timelines",
+          "what_will_frustrate_them": [
+            "Vague recommendations without a written plan",
+            "Providers who don't respect her time or run significantly behind schedule",
+            "Being told to simply stop running without offering alternatives",
+            "Upselling unnecessary procedures or imaging"
+          ]
+        },
+        "as_a_professional": {
+          "case_or_task_type_they_handle": "Comprehensive wealth management engagements for high-net-worth families — integrating investment management, tax planning, estate planning, retirement projections, executive compensation analysis, asset protection, charitable giving, and insurance review",
+          "professional_dilemmas": [
+            "A long-standing client wants to invest a large portion of their portfolio in a speculative asset class that Kate believes is unsuitable — balancing fiduciary duty with client autonomy",
+            "A prospective client with $25M wants to engage in an aggressive tax shelter that has questionable authority under IRC — declining the revenue vs. maintaining ethical standards",
+            "A client couple is divorcing and both want Kate to continue as their advisor — navigating the conflict of interest",
+            "A client's adult child is pressuring the client to change estate documents in ways that may not reflect the client's true wishes — potential elder financial abuse"
+          ],
+          "ethical_constraints": [
+            "Fiduciary duty under both SEC and CFP Board standards — must act in the client's best interest at all times",
+            "Cannot provide legal advice as a wealth advisor (despite her J.D.) unless acting in a capacity where attorney-client privilege applies",
+            "Must disclose all material conflicts of interest per SEC regulations",
+            "Tax advice must meet IRS Circular 230 standards — cannot provide opinions on positions lacking substantial authority",
+            "Cannot knowingly assist in tax evasion, asset concealment, or money laundering"
+          ],
+          "interaction_style_with_public": "Professional, polished, and reassuring; leads with questions to understand goals before presenting solutions; uses visual illustrations (charts, projections) to make complex strategies tangible; follows up every meeting with a written summary"
+        }
+      },
+      "dialogue_samples": {
+        "greeting": "Good morning. Thank you for coming in. Before we dive into the numbers, I'd like to start by understanding what's changed since we last met — both financially and personally. The best plans start with what matters most to you.",
+        "under_stress": "I understand the markets are down and it feels unsettling. But let me show you something — this is what your plan was built for. We stress-tested for exactly this scenario. Let's walk through the numbers together so you can see where you stand.",
+        "when_satisfied": "This is one of those plans I'm genuinely proud of. We've structured this so your family is protected across three generations, and the tax savings are significant. More importantly, it reflects exactly what you told me mattered most.",
+        "when_refusing": "I appreciate the opportunity, but I can't advise on that strategy. The IRS position on this is clear, and the downside risk to you — both financially and reputationally — isn't worth it. Let me show you three alternatives that achieve a similar outcome within the rules."
+      },
+      "quality_checks": {
+        "internal_consistency_pass": true,
+        "non_stereotyping_pass": true,
+        "notes": [
+          "J.D./MBA completed by ~25, 27 years of experience at 52 — timeline is consistent",
+          "CFP, CFA, CPWA, and J.D. credentials are realistically achievable given her education timeline and career path",
+          "Income bracket reflects realistic compensation for an RIA firm principal in a HCOL metro area",
+          "Multiracial identity is descriptive — professional competence and personality derive from education, experience, and values",
+          "Her legal training informs her tax expertise but she operates as a wealth advisor, not a practicing attorney — this distinction is maintained"
+        ]
+      }
+    }
+  ]
+}
