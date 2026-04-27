@@ -1,0 +1,85 @@
+{
+  "metadata": {
+    "rubricId": "ett-connect-grader-v1",
+    "intendedUse": "Grade Microsoft Connect submissions for ETT team members",
+    "authoritative": true
+  },
+  "scoringModel": {
+    "totalPoints": 100,
+    "gradeScale": [
+      { "min": 90, "grade": "A (Strong Rewards Case)" },
+      { "min": 80, "grade": "B (Solid, Rewardable)" },
+      { "min": 70, "grade": "C (Weak Impact, Risky)" },
+      { "min": 60, "grade": "D (Unrewardable)" },
+      { "min": 0, "grade": "F (Activity Only)" }
+    ]
+  },
+  "criteria": [
+    {
+      "id": "c1_measurable_outcomes",
+      "name": "Measurable Outcomes",
+      "weight": 30,
+      "scoring": {
+        "5": "Clear quantified metrics (time saved, cost avoided, reuse count, % reduction)",
+        "3": "Some metrics present but incomplete or weakly defended",
+        "1": "Mostly qualitative statements",
+        "0": "No measurable outcomes"
+      }
+    },
+    {
+      "id": "c2_business_value",
+      "name": "Business / Rewards Value",
+      "weight": 20,
+      "scoring": {
+        "5": "Directly ties outcomes to cost, capacity, scale, or risk reduction",
+        "3": "Implied value but not explicit",
+        "1": "Generic value statements",
+        "0": "No clear business value"
+      }
+    },
+    {
+      "id": "c3_scope_and_scale",
+      "name": "Scope & Scale",
+      "weight": 15,
+      "scoring": {
+        "5": "Reusable across teams/customers; clear multiplier effect",
+        "3": "Some reuse or enablement",
+        "1": "Single-instance impact",
+        "0": "Isolated activity"
+      }
+    },
+    {
+      "id": "c4_delivery_excellence",
+      "name": "Delivery Excellence",
+      "weight": 15,
+      "scoring": {
+        "5": "Material reduction in delivery time or effort",
+        "3": "Incremental improvement",
+        "1": "No delivery improvement",
+        "0": "Delivery inefficiency"
+      }
+    },
+    {
+      "id": "c5_security_quality",
+      "name": "Security & Quality",
+      "weight": 10,
+      "scoring": {
+        "5": "Security and quality embedded by design",
+        "3": "Security considered but reactive",
+        "1": "Minimal security discussion",
+        "0": "Security ignored"
+      }
+    },
+    {
+      "id": "c6_behavior_alignment",
+      "name": "Culture & Behaviors",
+      "weight": 10,
+      "scoring": {
+        "5": "Clear One Microsoft, Growth Mindset, Deliver Success behaviors",
+        "3": "Behaviors stated but not evidenced",
+        "1": "Generic behavior language",
+        "0": "No behavior reflection"
+      }
+    }
+  ]
+}

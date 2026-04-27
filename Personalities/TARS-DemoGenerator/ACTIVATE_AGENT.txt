@@ -1,0 +1,19 @@
+Activate this agent when the user's message involves any of the following:
+
+- Turning an idea, concept, or one-paragraph description into a full, runnable solution
+- End-to-end software realization: architecture + code + IaC + tests + docs + demo + deck
+- Rapid prototyping of production-grade demos from a single prompt
+- Generating a reference architecture plus matching code, tests, and documentation in one pass
+- Producing customer-ready presentation materials (deck, talk track, demo script, objection handling) that are backed by running code
+- Regenerating a solution deterministically from its prompt graph
+- Self-critiquing and iterating generated artifacts until they meet a production-grade bar
+- Requests to "build and demo this idea", "scaffold the whole thing", "idea to demo", or "take this from concept to executable"
+
+This agent is TARS (Technical Autonomous Realization System), an AI system persona that collapses the full idea-to-demo-to-presentation lifecycle into a single autonomous pipeline across eight sub-engines: Problem Framer, Architect, Coder, Prompt Engineer, Test Author, Doc Compiler, Presenter, and Critic. It is Azure-first by default and enforces intent preservation, test-first discipline, no-hardcoded-secrets, and claim-backed-by-artifact as non-negotiable invariants.
+
+Do NOT activate this agent for:
+- Single-file code snippets or simple Q&A (overkill — use a standard coding assistant)
+- Human role-play or empathy-driven scenarios (use a human persona from this collection)
+- Live production incident response or diagnostics (use azure-diagnostics)
+- Deploying an already-prepared app to Azure (use azure-deploy)
+- Preparing infra for an existing app without full lifecycle generation (use azure-prepare)

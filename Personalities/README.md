@@ -1,6 +1,6 @@
 # Personalities
 
-A collection of 13 fictional human personas for AI agent role-play, simulation, testing, and narrative design.
+A collection of 13 fictional human personas plus specialized AI system personas for AI agent role-play, simulation, testing, customer intake, and narrative design.
 
 ---
 
@@ -22,17 +22,25 @@ A collection of 13 fictional human personas for AI agent role-play, simulation, 
 | 12 | [StockMarketAdvisor-Expert](StockMarketAdvisor-Expert/) | Rafael Castellano | Stock Market Advisor — Senior Portfolio Strategist | 47 | Manhattan, NY |
 | 13 | [RetirementAdvisor-Expert](RetirementAdvisor-Expert/) | Diane Morales-Patterson | Retirement Advisor — Senior Partner (RICP, EA) | 58 | Scottsdale, AZ |
 
+## Specialized AI System Personas
+
+| # | Folder | Persona | Purpose |
+|---|--------|---------|---------|
+| 1 | [TARS-DemoGenerator](TARS-DemoGenerator/) | TARS (Technical Autonomous Realization System) | Converts an idea into architecture, code, tests, docs, demo, and presentation artifacts |
+| 2 | [Greg-TechnicalArchitect](Greg-TechnicalArchitect/) | Greg (Technical Architect Intake Agent) | Guides non-technical customers through software/IT discovery and persists architect handoff reports |
+
 ---
 
 ## Folder Structure
 
-Each persona subfolder contains three files:
+Each persona subfolder contains three or four files:
 
 ```
 <Persona-Folder>/
 ├── persona.json      # Structured character data (JSON schema v1.0)
 ├── DESCRIPTION.md    # Human-readable personality summary
-└── INSTRUCTION.md    # AI agent usage guide for embodying the persona
+├── INSTRUCTION.md    # AI agent usage guide for embodying the persona
+└── ACTIVATE_AGENT.txt # Optional activation guidance for specialized AI system personas
 ```
 
 ### File Descriptions
@@ -42,6 +50,7 @@ Each persona subfolder contains three files:
 | **persona.json** | JSON | Complete persona specification — identity, location, education, occupation, socioeconomic context, Big Five psychometrics, decision and communication styles, values/motivations/fears, health context, behavioral profile, backstory, dual scenario hooks (as professional + as client), dialogue samples, and quality checks |
 | **DESCRIPTION.md** | Markdown | Quick-reference summary of the persona's key traits, values, professional and personal context, and distinguishing characteristics |
 | **INSTRUCTION.md** | Markdown | Step-by-step instructions for an AI agent: role adoption rules, behavioral constraints (trigger phrases, taboo topics, moral red lines), scenario usage guidance, dialogue calibration, backstory integration, and quality guardrails |
+| **ACTIVATE_AGENT.txt** | Text | Optional activation criteria for specialized AI system personas |
 
 ### Root Files
 
@@ -66,6 +75,7 @@ The personas span six professional sectors:
 | **Education** | Teacher (High School English) |
 | **Government / Nonprofit** | Politician (City Council) |
 | **Financial Services** | Wealth Advisor (Expert), Stock Market Advisor (Expert), Retirement Advisor (Expert) |
+| **AI System / Intake** | TARS (Demo Generator), Greg (Technical Architect Intake Agent) |
 
 ---
 

@@ -1,0 +1,41 @@
+Purpose
+This document defines how the agent must apply the Connect Grading Heuristics to an uploaded Connect document.
+
+Application Rules (STRICT)
+
+1. Evidence-Only Scoring
+- Score only what appears in the text
+- Each score must cite specific phrases or sentences
+- If evidence is ambiguous, choose the lower score
+
+2. Metric Validation
+- Metrics must include at least one of:
+  • numeric value
+  • percentage change
+  • time reduction
+  • reuse count
+- Vague phrases (“significant”, “major”, “dramatically”) score no higher than 1
+
+3. Role Calibration
+- Principal / L65+ submissions are expected to show:
+  • reuse
+  • scale
+  • business proxies (cost, time, risk)
+- Activity without scale is penalized
+
+4. Idempotency
+- The same Connect text must always yield the same score
+- Do not randomize or soften scoring
+
+5. Output Requirements
+The agent must output:
+- Overall score (0–100)
+- Letter grade
+- Criterion-by-criterion breakdown
+- Strengths (evidence-based)
+- Gaps / risks
+- Confidence level (High / Medium / Low)
+- Recommendation: Rewardable / Borderline / Not Rewardable
+
+6. Absolute Rule
+If the submission does not clearly justify rewards, the agent must say so.

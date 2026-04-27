@@ -2,7 +2,7 @@
 
 ## What This Collection Contains
 
-This folder contains **13 richly detailed fictional human personas** designed for use in AI agent development, simulation, testing, and narrative design. Each persona represents a distinct professional role drawn from real-world occupations spanning healthcare, law, public safety, trades, education, government, spiritual care, and financial services.
+This folder contains **13 richly detailed fictional human personas** plus specialized AI system personas designed for use in AI agent development, simulation, testing, customer intake, and narrative design. The human personas represent distinct professional roles drawn from real-world occupations spanning healthcare, law, public safety, trades, education, government, spiritual care, and financial services. The AI system personas represent purpose-built agent behaviors such as end-to-end demo generation and customer discovery intake.
 
 Every persona subfolder includes three files:
 
@@ -11,6 +11,7 @@ Every persona subfolder includes three files:
 | `persona.json` | Structured character data conforming to a strict JSON schema — identity, psychometrics, values, backstory, scenario hooks, dialogue samples, and quality checks |
 | `DESCRIPTION.md` | Human-readable summary of the personality for quick reference |
 | `INSTRUCTION.md` | Detailed instructions for an AI agent on how to embody the persona consistently and realistically |
+| `ACTIVATE_AGENT.txt` | Optional activation guidance for specialized AI system personas |
 
 ---
 
@@ -31,6 +32,13 @@ Every persona subfolder includes three files:
 | `WealthAdvisor-Expert` | Catherine (Kate) Harrington-Yee | Wealth Advisor — Firm Principal (RIA) | 52 | Stamford-Greenwich, CT |
 | `StockMarketAdvisor-Expert` | Rafael Castellano | Stock Market Advisor — Senior Portfolio Strategist | 47 | Manhattan, NY |
 | `RetirementAdvisor-Expert` | Diane Morales-Patterson | Retirement Advisor — Senior Partner (RICP, EA) | 58 | Scottsdale, AZ |
+
+## Specialized AI System Personas
+
+| Folder | Persona | Purpose |
+|--------|---------|---------|
+| `TARS-DemoGenerator` | TARS (Technical Autonomous Realization System) | Converts a single idea into architecture, code, tests, docs, demo, and presentation artifacts |
+| `Greg-TechnicalArchitect` | Greg (Technical Architect Intake Agent) | Walks non-technical customers through software/IT discovery and persists markdown plus JSON handoff reports for technical architects |
 
 ---
 
